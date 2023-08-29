@@ -2,68 +2,68 @@
 
 /*Nav Bar*/
 .links-nav { 
-    align-items: center;
+    align-items: center !important;
 }
 .links-nav a{
     color: black;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 .Price-Card{
-    background-color: #D72752;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 10px;
+    background-color: #D72752 !important;
+    color: white !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    border-radius: 10px !important;
 }
 .bottom-card {
-    border-top: solid #D1D1D1 1px;
-    color: black;
+    border-top: solid #D1D1D1 1px !important;
+    color: black !important;
 }
 .bottom-card button{
-    color: black;
-    text-transform: capitalize;
+    color: black !important;
+    text-transform: capitalize !important;
     
 }
 .seeMoreCards{
-    color: black;
-    text-transform: capitalize;
+    color: black !important;
+    text-transform: capitalize !important;
 }
 
 .LayoutCardOuter{
-    padding-left: 100px;
+    padding-left: 100px !important;
 }
 @media (max-width: 992px) {
     .LayoutCardOuter{
-        padding-left: 0;
+        padding-left: 0 !important;
     }
   }
 .LayoutCardOuterMain{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
 }
 @media (max-width: 992px) {
     .LayoutCardOuterMain{
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
   }
 
 
 
   .fullWidthPinkButton{
-    background-color: #D72752;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 15px;
-    text-transform: none;
+    background-color: #D72752 !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    border-radius: 15px !important;
+    text-transform: none !important;
   }
 .buttonWhiteBgShadow button{
-    background-color: #fff;
-    color: black;
-    font-size: 12px;
-    font-weight: 600;
-    border-radius: 10px;
-    margin-right: 10px;
+    background-color: #fff !important;
+    color: black !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    border-radius: 10px !important;
+    margin-right: 10px !important;
 }
 
 
@@ -72,34 +72,34 @@
 
 
 .heroCardContain{
-    padding-left: 150px;
+    padding-left: 150px !important;
 }
 .heroCard1{
-    position: relative;
-    z-index: 999;
-    width: 90%;
+    position: relative !important;
+    z-index: 999 !important;
+    width: 90% !important;
 }
 .heroCard2{
-    position: relative; 
-    width: 90%;
-    margin-top: -610px;
-    margin-left: 50px;
+    position: relative !important; 
+    width: 90% !important;
+    margin-top: -610px !important;
+    margin-left: 50px !important;
 }
 @media (max-width: 1200px) {
     .heroCardContain{
-        padding-left: 15px;
+        padding-left: 15px !important;
     }
   }
   @media (max-width: 768px) { 
     .heroCard1{
-        position: relative; 
-        width: 90%;
+        position: relative !important; 
+        width: 90% !important;
     }
     .heroCard2{
         position: relative; 
-        width: 90%;
-        margin-top: -500px;
-        margin-left: 30px;
+        width: 90% !important;
+        margin-top: -500px !important;
+        margin-left: 30px !important;
     }
   }
 
@@ -109,21 +109,21 @@
 
 
   .formModalPropSearch {
-    width: 60%;
+    width: 60% !important;
   }
   @media (max-width: 968px) {
     .formModalPropSearch {
-        width: 90%;
+        width: 90% !important;
       }
   }
 
 
   .GenForms {
-    width: 600px;
+    width: 600px !important;
   }
   @media (max-width: 968px) {
     .GenForms {
-        width: 90%;
+        width: 90% !important;
       }
   }
 
