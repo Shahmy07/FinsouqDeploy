@@ -17,7 +17,7 @@ export default function WelcomeToFinsouqee() {
 
                 <div className='LayoutCardOuterMain'>
                     <div className='row align-items-center'>
-                        <div className='col-md-6'>
+                        <div className='col-lg-6'>
                             <div>
                                 <Typography fontSize={40} fontWeight={600} color={'#000'}>
                                     Unlock Exclusive Developer Financing Options, with
@@ -71,7 +71,7 @@ export default function WelcomeToFinsouqee() {
                             <FormRequestInquiry />
                         </div>
 
-                        <div className='col-md-6 pt-3 heroCardContain' style={{ backgroundImage: 'url("/Ellipse 1.png")', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', backgroundPosition: 'center center' }}>
+                        <div className='col-lg-6 pt-3 heroCardContain' style={{ backgroundImage: 'url("/Ellipse 1.png")', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', backgroundPosition: 'center center' }}>
                             <div className='heroCard1'>
                                 <SingleCardTrendingDevelopment />
                             </div>
@@ -80,6 +80,13 @@ export default function WelcomeToFinsouqee() {
                                 <SingleCardTrendingDevelopment />
                             </div>
 
+                            <Image
+                            src={'/Arrow 06.png'}
+                            width={150}
+                            height={150}
+                            style={{position:'absolute', top:'120%', left:'50%'}}
+                            className='d-xl-block d-none'
+                        />
                         </div>
                     </div>
                 </div>

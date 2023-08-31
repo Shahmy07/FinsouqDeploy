@@ -14,6 +14,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Image from 'next/image';
 import Link from 'next/link';
 import logo from '../assets/logo.png'
+import hum from '../../public/ri_menu-3-fill.png'
 import Login from './Login'; 
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
@@ -85,7 +86,13 @@ export default function MobileMenu() {
     <div>
       {['top'].map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button style={{color:'#000'}} onClick={toggleDrawer(anchor, true)}><MenuIcon/></Button>
+          <Button style={{color:'#000'}} onClick={toggleDrawer(anchor, true)}>
+          <Image
+            src={hum} // Path to the image from the `public` folder
+            alt="My Image"
+            width={30} // Set the desired width 
+          />
+          </Button>
           <Drawer
             anchor={anchor}
             open={state[anchor]}

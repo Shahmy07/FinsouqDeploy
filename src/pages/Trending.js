@@ -20,15 +20,15 @@ export default function Trending() {
                     </div>
 
                     <div className='row'>
-                        <div className='col-md-4'>
+                        <div className='col-md-4 mt-4'>
                             <SingleCardTrendingDevelopment/>
                         </div>
 
-                        <div className='col-md-4'>
+                        <div className='col-md-4 mt-4'>
                            <SingleCardTrendingDevelopment/>
                         </div>
 
-                        <div className='col-md-4'>
+                        <div className='col-md-4 mt-4'>
                            <SingleCardTrendingDevelopment/>
                         </div>
 

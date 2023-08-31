@@ -15,7 +15,7 @@ export default function SingleCardTrendingDevelopment() {
                 <Card>
                     <div class="px-3 pt-3">
                         <Image
-                            src={'/dddddddddddd.png'}
+                            src={'/t3.png'}
                             width={400}
                             height={(400 / 4) * 3}
                             layout="responsive"
