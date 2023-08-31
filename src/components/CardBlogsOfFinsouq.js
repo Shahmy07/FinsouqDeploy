@@ -25,7 +25,7 @@ export default function CardBlogsOfFinsouqq() {
                 </div>
 
                 <Swiper
-                    spaceBetween={50}
+                    spaceBetween={25}
                     slidesPerView={1}
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
@@ -78,7 +78,7 @@ export default function CardBlogsOfFinsouqq() {
                         <Card>
                                 <div class="px-3 pt-3">
                                     <Image
-                                        src={'/Frame 19s8 (1).png'}
+                                        src={'/b2.png'}
                                         width={400}
                                         height={(400 / 4) * 3}
                                         layout="responsive"
@@ -88,7 +88,7 @@ export default function CardBlogsOfFinsouqq() {
 
                                 <CardContent>  
                                     <Typography gutterBottom variant="h5" fontWeight="bold" component="div">
-                                    Breaking Boundaries: Empowering B......
+                                    Your Path to Property Ownership.............
                                     </Typography>
                                     <div className='d-md-flex justify-content-between'>
                                     <Typography variant="body2" color="text.secondary">
@@ -112,7 +112,7 @@ export default function CardBlogsOfFinsouqq() {
                         <Card>
                                 <div class="px-3 pt-3">
                                     <Image
-                                        src={'/Frame 19s8 (1).png'}
+                                        src={'/b3.png'}
                                         width={400}
                                         height={(400 / 4) * 3}
                                         layout="responsive"
@@ -122,7 +122,7 @@ export default function CardBlogsOfFinsouqq() {
 
                                 <CardContent>  
                                     <Typography gutterBottom variant="h5" fontWeight="bold" component="div">
-                                    Breaking Boundaries: Empowering B......
+                                    The Future of Real Estate: Exploring......
                                     </Typography>
                                     <div className='d-md-flex justify-content-between'>
                                     <Typography variant="body2" color="text.secondary">

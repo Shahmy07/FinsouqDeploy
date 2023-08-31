@@ -59,38 +59,38 @@ export default function CardHomeLastt() {
                         <div className='px-3 py-4 h-100' style={{ backgroundColor: '#F6F6F6' }}>
                         <div>
                             <Typography variant="h6" fontWeight={600}>
-                                Browse Properties By Dubai Areas
+                            Amenities
                             </Typography>
                         </div>
 
                         <div>
                             <List component="nav">
                                 <ListItem className='px-0 py-1'>
-                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="Palm Jumeirah" />
+                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="Bar" />
                                 </ListItem>
                                 <ListItem className='px-0 py-1'>
-                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="Downtown Dubai" />
+                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="Spa" />
                                 </ListItem>
                                 <ListItem className='px-0 py-1'>
-                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="Emirates Hills" />
+                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="Fitness center" />
                                 </ListItem>
                                 <ListItem className='px-0 py-1'>
-                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="Arabian Ranches" />
+                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="Parking" />
                                 </ListItem>
                                 <ListItem className='px-0 py-1'>
-                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="Jumeirah" />
+                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="EV Charging Stations" />
                                 </ListItem>
                                 <ListItem className='px-0 py-1'>
-                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="Jumeirah Lakes Towers (JLT)" />
+                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="Laundry service" />
                                 </ListItem>
                                 <ListItem className='px-0 py-1'>
-                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="The Springs" />
+                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="Kids’ Club" />
                                 </ListItem>
                                 <ListItem className='px-0 py-1'>
-                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="Downtown Jebel Ali" />
+                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="Meeting" />
                                 </ListItem>
                                 <ListItem className='px-0 py-1'>
-                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="Dubai Hills Estate" />
+                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="On-site dining and much more" />
                                 </ListItem>
                             </List>
                         </div>
@@ -101,26 +101,26 @@ export default function CardHomeLastt() {
                         <div className='px-3 py-4 h-100' style={{ backgroundColor: '#F6F6F6' }}>
                         <div>
                             <Typography variant="h6" fontWeight={600}>
-                                Browse Properties By Dubai Areas
+                            Useful links
                             </Typography>
                         </div>
 
                         <div>
                             <List component="nav">
                                 <ListItem className='px-0 py-1'>
-                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="Palm Jumeirah" />
+                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="How developer financing works?" />
                                 </ListItem>
                                 <ListItem className='px-0 py-1'>
-                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="Downtown Dubai" />
+                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="Why Finsouq?" />
                                 </ListItem>
                                 <ListItem className='px-0 py-1'>
-                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="Emirates Hills" />
+                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="Finsouq terms and conditions" />
                                 </ListItem>
                                 <ListItem className='px-0 py-1'>
-                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="Arabian Ranches" />
+                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="Finsouq privacy policy" />
                                 </ListItem>
                                 <ListItem className='px-0 py-1'>
-                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="Jumeirah" />
+                                 <Typography mr={2}><ArrowRightAltIcon/></Typography>   <ListItemText primary="Services" />
                                 </ListItem> 
                             </List>
                         </div>

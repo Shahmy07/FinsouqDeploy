@@ -133,7 +133,11 @@
 
 
 
-
+  .showMore button{
+    color: var(--black-500, #6D6D6D) !important; 
+    font-weight: 500 !important;
+    text-transform: capitalize !important;
+ }
 
 
 

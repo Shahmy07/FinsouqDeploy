@@ -20,14 +20,14 @@ export default function ClientExperienceTestimoniall() {
                 </div>
 
                 <Swiper
-                    spaceBetween={50}
+                    spaceBetween={30}
                     slidesPerView={1}
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
                     breakpoints={{
                         // When screen width is less than 768px (typical mobile width)
                         1050: {
-                            slidesPerView: 2.4, // Show only one slide per frame
+                            slidesPerView: 2.2, // Show only one slide per frame
                         },
                     }}
                 >
@@ -131,14 +131,15 @@ export default function ClientExperienceTestimoniall() {
 
 
                 <Swiper
-                    spaceBetween={50}
+                    spaceBetween={30}
                     slidesPerView={1}
+                    initialSlide={2}
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
                     breakpoints={{
                         // When screen width is less than 768px (typical mobile width)
                         1050: {
-                            slidesPerView: 2.3, // Show only one slide per frame
+                            slidesPerView: 2.2, // Show only one slide per frame
                         },
                     }}
                 >

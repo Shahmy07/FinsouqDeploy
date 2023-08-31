@@ -1,14 +1,10 @@
 import React from 'react'
 import Card from '@mui/material/Card'
-import CardContent from '@mui/material/CardContent'
-import Button from '@mui/material/Button'
+import CardContent from '@mui/material/CardContent' 
 import Typography from '@mui/material/Typography'
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import 'swiper/css'
-import Link from 'next/link' 
-import FormPropertySearchHome from './FormPropertySearchHome'
-import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+import 'swiper/css' 
 
 export default function CardExploreDubaii() {
     return (
@@ -24,7 +20,7 @@ export default function CardExploreDubaii() {
                 </div>
 
                 <Swiper
-                    spaceBetween={50}
+                    spaceBetween={25}
                     slidesPerView={1}
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
@@ -55,11 +51,51 @@ export default function CardExploreDubaii() {
                                 <CardContent className='d-md-flex justify-content-between'>
                                     <Typography variant="h6" fontWeight={600} color="text.primary">
                                         Palm Jumeirah
-                                    </Typography>
+                                    </Typography> 
+                                </CardContent>
+                            </Card>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                    <div>
+                            <Card>
+                                <div class="px-3 pt-3">
+                                <Image
+                                        src={'/image 2.png'}
+                                        width={400}
+                                        height={(400 / 4) * 3}
+                                        layout="responsive"
+                                        style={{borderRadius:'10px'}}
+                                    />
+                                </div>
 
-                                    <Link href={'PropertySingleView'} style={{color:'black', fontSize:'20px', textDecoration:'none', fontWeight:'500'}}>
-                                    Read more <KeyboardArrowRightIcon/>
-                                    </Link>
+
+                                <CardContent className='d-md-flex justify-content-between'>
+                                    <Typography variant="h6" fontWeight={600} color="text.primary">
+                                    Downtown Dubai
+                                    </Typography> 
+                                </CardContent>
+                            </Card>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                    <div>
+                            <Card>
+                                <div class="px-3 pt-3">
+                                <Image
+                                        src={'/image 3.png'}
+                                        width={400}
+                                        height={(400 / 4) * 3}
+                                        layout="responsive"
+                                        style={{borderRadius:'10px'}}
+                                    />
+                                </div>
+
+
+                                <CardContent className='d-md-flex justify-content-between'>
+                                    <Typography variant="h6" fontWeight={600} color="text.primary">
+                                    Emirates Hills
+                                    </Typography> 
                                 </CardContent>
                             </Card>
                         </div>
@@ -81,69 +117,11 @@ export default function CardExploreDubaii() {
                                 <CardContent className='d-md-flex justify-content-between'>
                                     <Typography variant="h6" fontWeight={600} color="text.primary">
                                         Palm Jumeirah
-                                    </Typography>
-
-                                    <Link href={'PropertySingleView'} style={{color:'black', fontSize:'20px', textDecoration:'none', fontWeight:'500'}}>
-                                    Read more <KeyboardArrowRightIcon/>
-                                    </Link>
+                                    </Typography> 
                                 </CardContent>
                             </Card>
                         </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                    <div>
-                            <Card>
-                                <div class="px-3 pt-3">
-                                <Image
-                                        src={'/image 1.png'}
-                                        width={400}
-                                        height={(400 / 4) * 3}
-                                        layout="responsive"
-                                        style={{borderRadius:'10px'}}
-                                    />
-                                </div>
-
-
-                                <CardContent className='d-md-flex justify-content-between'>
-                                    <Typography variant="h6" fontWeight={600} color="text.primary">
-                                        Palm Jumeirah
-                                    </Typography>
-
-                                    <Link href={'PropertySingleView'} style={{color:'black', fontSize:'20px', textDecoration:'none', fontWeight:'500'}}>
-                                    Read more <KeyboardArrowRightIcon/>
-                                    </Link>
-                                </CardContent>
-                            </Card>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                    <div>
-                            <Card>
-                                <div class="px-3 pt-3">
-                                <Image
-                                        src={'/image 1.png'}
-                                        width={400}
-                                        height={(400 / 4) * 3}
-                                        layout="responsive"
-                                        style={{borderRadius:'10px'}}
-                                    />
-                                </div>
-
-
-                                <CardContent className='d-md-flex justify-content-between'>
-                                    <Typography variant="h6" fontWeight={600} color="text.primary">
-                                        Palm Jumeirah
-                                    </Typography>
-
-                                    <Link href={'PropertySingleView'} style={{color:'black', fontSize:'20px', textDecoration:'none', fontWeight:'500'}}>
-                                    Read more <KeyboardArrowRightIcon/>
-                                    </Link>
-                                </CardContent>
-                            </Card>
-                        </div>
-                    </SwiperSlide> 
-
-                    <FormPropertySearchHome/>
+                    </SwiperSlide>  
                 </Swiper>
                 </div>
 

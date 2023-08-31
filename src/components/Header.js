@@ -42,8 +42,7 @@ function Header() {
 
         <div class="w-75 d-lg-flex d-none justify-content-between links-nav">
           <Link style={{fontWeight:'600'}} href='/'>Home</Link>
-          <Link style={{fontWeight:'600'}} href='/Trending'>Trending Developments</Link>
-          <Link style={{fontWeight:'600'}} href='/financingcalculators'>Tools</Link>
+          <Link style={{fontWeight:'600'}} href='/Trending'>Trending Developments</Link> 
           <Link style={{fontWeight:'600'}} href='/blog'>Blog</Link>
           <Link style={{fontWeight:'600'}} href='/Trending'> Company</Link> 
           <Login/>
