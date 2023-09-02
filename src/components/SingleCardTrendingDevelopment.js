@@ -6,6 +6,10 @@ import Typography from '@mui/material/Typography'
 import Image from 'next/image'
 import FmdGoodIcon from '@mui/icons-material/FmdGood';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import ApartmentIcon from '@mui/icons-material/Apartment';
+import SettingsIcon from '@mui/icons-material/Settings';
+import LocalHotelIcon from '@mui/icons-material/LocalHotel';
+import DateRangeIcon from '@mui/icons-material/DateRange';
 
 export default function SingleCardTrendingDevelopment() {
     return (
@@ -24,14 +28,14 @@ export default function SingleCardTrendingDevelopment() {
 
 
                     <CardContent>
-                        <Button className='Price-Card px-3'>AED15,000/mo</Button>
+                        <Button className='Price-Card-btn px-3'>AED15,000/mo</Button>
                         <Image
                             src={'/Frame 379.png'}
                             width={81}
                             height={81}
                             style={{ float: 'right', marginTop: '-55px', position: 'relative', zIndex: '99' }}
                         />
-                        <Typography gutterBottom variant="h5" mt={1} fontWeight="bold" component="div">
+                        <Typography gutterBottom variant="h5" mt={-4} fontWeight="bold" component="div">
                             Renovated Luxury Apartment
                         </Typography>
                         
@@ -43,12 +47,28 @@ export default function SingleCardTrendingDevelopment() {
                             <Typography fontSize={'20px'} fontWeight={'600'} color={'var(--brink-pink-600, #D72752)'}>Easy Payment Plan</Typography>
                         </div>
 
-                        <Typography variant="body2" color="text.secondary" fontWeight={600} fontSize={20}>
+                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
                             <FmdGoodIcon /> Apartment 1502, Marina Heights.....
                         </Typography>
 
-                        <div class="bottom-card text-center mt-3 pt-3">
-                            <Button variant="text">More details <ChevronRightIcon /></Button>
+                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                            <ApartmentIcon /> Apartment 1502, Marina Heights.....
+                        </Typography>
+
+                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                            <SettingsIcon /> Apartment 1502, Marina Heights.....
+                        </Typography>
+
+                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                            <LocalHotelIcon /> Apartment 1502, Marina Heights.....
+                        </Typography>
+
+                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                            <DateRangeIcon /> Apartment 1502, Marina Heights.....
+                        </Typography>
+
+                        <div class="bottom-card text-center pt-3">
+                            <Button className='py-3' variant="text">VIEW DETAILS <ChevronRightIcon /></Button>
                         </div>
                     </CardContent>
                 </Card>

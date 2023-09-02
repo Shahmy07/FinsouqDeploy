@@ -24,7 +24,7 @@ export default function OurProperty() {
                     </div>
 
                     <div className='row'>
-                        <div className='col-md-4'>
+                        <div className='col-md-4 mt-md-0 mt-4'>
                             <Card style={{ height: '350px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                                 <div class="px-3 py-3" style={{ width: '100%' }}>
                                     <Image
@@ -36,7 +36,7 @@ export default function OurProperty() {
                                 </div>
                             </Card>
                         </div>
-                        <div className='col-md-4'>
+                        <div className='col-md-4 mt-md-0 mt-4'>
                             <Card style={{ height: '350px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                                 <div class="px-3 py-3" style={{ width: '100%' }}>
                                     <Image
@@ -48,7 +48,7 @@ export default function OurProperty() {
                                 </div>
                             </Card>
                         </div>
-                        <div className='col-md-4'>
+                        <div className='col-md-4 mt-md-0 mt-4'>
                             <Card style={{ height: '350px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                                 <div class="px-3 py-3" style={{ width: '100%' }}>
                                     <Image

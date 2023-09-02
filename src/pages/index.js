@@ -8,6 +8,7 @@ import ClientExperienceTestimoniall from '@/components/ClientExperienceTestimoni
 import CardHomeLastt from '@/components/CardHomeLast'
 import WelcomeToFinsouqee from '@/components/WelcomeToFinsouqe'
 import OurProperty from '@/components/OurProperty'
+import PropertyCount from '@/components/PropertyCount'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,6 +19,8 @@ export default function Home() {
       <WelcomeToFinsouqee />
 
       <CardTopTrending />
+
+      <PropertyCount/>
 
       <CardExploreDubaii />
 

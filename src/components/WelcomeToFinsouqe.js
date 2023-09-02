@@ -1,11 +1,12 @@
 import React from 'react'
 import Typography from '@mui/material/Typography'
-import { Button, TextField, Link } from '@mui/material'
+import { Button, Card, CardContent } from '@mui/material'
 import FormRequestInquiry from './FormRequestInquiry';
-import FormPropertySearch from './FormPropertySearch';
 import SingleCardTrendingDevelopment from './SingleCardTrendingDevelopment';
 import Image from 'next/image';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/css'
 
 
 
@@ -29,45 +30,76 @@ export default function WelcomeToFinsouqee() {
                                 </Typography>
                             </div>
 
-                            <div className='d-flex mb-4' style={{ flexWrap: 'wrap' }}>
-                                <div className='p-3 rounded mx-2 mt-2' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)' }}>
-                                    <Typography fontSize={'20px'} fontWeight={'600'}>Bar</Typography>
-                                </div>
-                                <div className='p-3 rounded mx-2 mt-2' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)' }}>
-                                    <Typography fontSize={'20px'} fontWeight={'600'}>Breakfast</Typography>
-                                </div>
-                                <div className='p-3 rounded mx-2 mt-2' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)' }}>
-                                    <Typography fontSize={'20px'} fontWeight={'600'}>Spa</Typography>
-                                </div>
-                                <div className='p-3 rounded mx-2 mt-2' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)' }}>
-                                    <Typography fontSize={'20px'} fontWeight={'600'}>Fitness center</Typography>
-                                </div>
-                                <div className='p-3 rounded mx-2 mt-2' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)' }}>
-                                    <Typography fontSize={'20px'} fontWeight={'600'}>Parking</Typography>
-                                </div>
-                                <div className='p-3 rounded mx-2 mt-2' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)' }}>
-                                    <Typography fontSize={'20px'} fontWeight={'600'}>Free Wi-Fi</Typography>
-                                </div>
-                                <div className='p-3 rounded mx-2 mt-2' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)' }}>
-                                    <Typography fontSize={'20px'} fontWeight={'600'}>EV Charging Stations</Typography>
-                                </div>
-                                <div className='p-3 rounded mx-2 mt-2' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)' }}>
-                                    <Typography fontSize={'20px'} fontWeight={'600'}>Laundry service</Typography>
-                                </div>
-                                <div className='p-3 rounded mx-2 mt-2' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)' }}>
-                                    <Typography fontSize={'20px'} fontWeight={'600'}>Kids’ Club</Typography>
-                                </div>
-                                <div className='p-3 rounded mx-2 mt-2' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)' }}>
-                                    <Typography fontSize={'20px'} fontWeight={'600'}> Meeting facilities</Typography>
-                                </div>
-                                <div className='p-3 rounded mx-2 mt-2' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)' }}>
-                                    <Typography fontSize={'20px'} fontWeight={'600'}>On-site dining</Typography>
-                                </div>
 
-                                <div class="showMore mt-2">
-                                    <Button variant="text">Show more <ExpandMoreIcon /></Button>
-                                </div>
-                            </div>
+
+                            <Swiper
+                                spaceBetween={0}
+                                slidesPerView={1}
+                                onSlideChange={() => console.log('slide change')}
+                                onSwiper={(swiper) => console.log(swiper)}
+                                breakpoints={{
+                                    // When screen width is less than 768px (typical mobile width)
+                                    1050: {
+                                        slidesPerView: 2.8, // Show only one slide per frame
+                                    },
+                                }}
+                            >
+
+
+
+                                <SwiperSlide>
+                                    <div>
+                                        <div className='p-3 rounded mx-2 d-flex' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)' }}>
+                                            <Image
+                                                src={'/image 18.png'}
+                                                width={30}
+                                                height={30}
+                                            />
+                                            <Typography ml={1} fontSize={'20px'} fontWeight={'600'}>24x7 security </Typography>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div>
+                                        <div className='p-3 rounded mx-2 d-flex' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)' }}>
+                                            <Image
+                                                src={'/image 19.png'}
+                                                width={30}
+                                                height={30}
+                                            />
+                                            <Typography ml={1} fontSize={'20px'} fontWeight={'600'}>Swimming </Typography>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div>
+                                        <div className='p-3 rounded mx-2 d-flex' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)' }}>
+                                            <Image
+                                                src={'/image 20.png'}
+                                                width={30}
+                                                height={30}
+                                            />
+                                            <Typography ml={1} fontSize={'20px'} fontWeight={'600'}>Multipurpose halls </Typography>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div>
+                                        <div className='p-3 rounded mx-2 d-flex' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)' }}>
+                                            <Image
+                                                src={'/image 18.png'}
+                                                width={30}
+                                                height={30}
+                                            />
+                                            <Typography ml={1} fontSize={'20px'} fontWeight={'600'}>Bar</Typography>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+                                <div>&zwnj; </div>
+                            </Swiper>
+
+
+
                             <FormRequestInquiry />
                         </div>
 
@@ -81,12 +113,12 @@ export default function WelcomeToFinsouqee() {
                             </div>
 
                             <Image
-                            src={'/Arrow 06.png'}
-                            width={150}
-                            height={150}
-                            style={{position:'absolute', top:'120%', left:'50%'}}
-                            className='d-xl-block d-none'
-                        />
+                                src={'/Arrow 06.png'}
+                                width={150}
+                                height={150}
+                                style={{ position: 'absolute', top: '120%', left: '50%' }}
+                                className='d-xl-block d-none'
+                            />
                         </div>
                     </div>
                 </div>
