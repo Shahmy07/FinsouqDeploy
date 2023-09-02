@@ -21,17 +21,17 @@
     font-size: 20px !important;
     font-weight: bold !important;
     border-radius: 10px !important;
-    margin-top: -120px;
-    margin-left: 10px;
+    margin-top: -120px !important;
+    margin-left: 10px !important;
 }
 .bottom-card { 
 }
 .bottom-card button{
     color: var(--black-500, #6D6D6D) !important;
     text-transform: capitalize !important;
-    background-color: var(--white-100, #EFEFEF);
-    width: 100%;
-    font-size: 20px;
+    background-color: var(--white-100, #EFEFEF) !important;
+    width: 100% !important;
+    font-size: 20px !important;
     
 }
 .seeMoreCards{
