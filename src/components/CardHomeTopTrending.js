@@ -9,6 +9,10 @@ import 'swiper/css'
 import Link from 'next/link'
 import FmdGoodIcon from '@mui/icons-material/FmdGood';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import ApartmentIcon from '@mui/icons-material/Apartment';
+import SettingsIcon from '@mui/icons-material/Settings';
+import LocalHotelIcon from '@mui/icons-material/LocalHotel';
+import DateRangeIcon from '@mui/icons-material/DateRange';
 
 export default function CardTopTrending() {
     return (
@@ -43,7 +47,7 @@ export default function CardTopTrending() {
                                 <Card>
                                     <div class="px-3 pt-3">
                                         <Image
-                                            src={'/t1.png'}
+                                            src={'/t3.png'}
                                             width={400}
                                             height={(400 / 4) * 3}
                                             layout="responsive"
@@ -52,21 +56,18 @@ export default function CardTopTrending() {
 
 
                                     <CardContent>
-                                        <Button className='Price-Card px-3'>AED15,000/mo</Button>
+                                        <Button className='Price-Card-btn px-3'>AED15,000/mo</Button>
                                         <Image
                                             src={'/Frame 379.png'}
                                             width={81}
                                             height={81}
-                                            style={{ float: 'right', marginTop: '-55px', position: 'relative', zIndex: '999' }}
+                                            style={{ float: 'right', marginTop: '-55px', position: 'relative', zIndex: '99' }}
                                         />
-                                        <Typography gutterBottom variant="h5" mt={1} fontWeight="bold" component="div">
-                                        Radisson Hotel Dubai DAMAC Hills
-                                        </Typography>
-                                        <Typography variant="body2" color="text.secondary">
-                                            <FmdGoodIcon /> Apartment 1502, Marina Heights.....
+                                        <Typography gutterBottom variant="h5" mt={-4} fontWeight="bold" component="div">
+                                            Renovated Luxury Apartment
                                         </Typography>
 
-                                        <div className='d-flex justify-content-between p-3 rounded my-3' style={{ backgroundColor: 'var(--brink-pink-50, #FEF2F3)', color: 'var(--brink-pink-600, #D72752)' }}>
+                                        <div className='d-flex justify-content-between p-3 rounded mb-3' style={{ backgroundColor: 'var(--brink-pink-50, #FEF2F3)', color: 'var(--brink-pink-600, #D72752)' }}>
                                             <div className='d-flex'>
                                                 <Typography fontSize={'20px'} color={'#000'} fontWeight={'600'} ml={1}>70/30</Typography>
                                             </div>
@@ -74,8 +75,28 @@ export default function CardTopTrending() {
                                             <Typography fontSize={'20px'} fontWeight={'600'} color={'var(--brink-pink-600, #D72752)'}>Easy Payment Plan</Typography>
                                         </div>
 
-                                        <div class="bottom-card text-center mt-3 pt-3">
-                                            <Button href={'PropertySingleView'} style={{ color: '#000', textTransform: 'capitalize' }} variant="text">More details <ChevronRightIcon /></Button>
+                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                            <FmdGoodIcon /> Apartment 1502, Marina Heights.....
+                                        </Typography>
+
+                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                            <ApartmentIcon /> Apartment 1502, Marina Heights.....
+                                        </Typography>
+
+                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                            <SettingsIcon /> Apartment 1502, Marina Heights.....
+                                        </Typography>
+
+                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                            <LocalHotelIcon /> Apartment 1502, Marina Heights.....
+                                        </Typography>
+
+                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                            <DateRangeIcon /> Apartment 1502, Marina Heights.....
+                                        </Typography>
+
+                                        <div class="text-center pt-3">
+                                            <Button className='py-3 fullWidthPinkButton w-100' style={{ color: '#fff', fontSize: '20px' }} variant="text">VIEW DETAILS <ChevronRightIcon /></Button>
                                         </div>
                                     </CardContent>
                                 </Card>
@@ -95,21 +116,18 @@ export default function CardTopTrending() {
 
 
                                     <CardContent>
-                                        <Button className='Price-Card px-3'>AED15,000/mo</Button>
+                                        <Button className='Price-Card-btn px-3'>AED15,000/mo</Button>
                                         <Image
                                             src={'/Frame 379.png'}
                                             width={81}
                                             height={81}
-                                            style={{ float: 'right', marginTop: '-55px', position: 'relative', zIndex: '999' }}
+                                            style={{ float: 'right', marginTop: '-55px', position: 'relative', zIndex: '99' }}
                                         />
-                                        <Typography gutterBottom variant="h5" mt={1} fontWeight="bold" component="div">
-                                        PHASE 11 - MOROCCO
-                                        </Typography>
-                                        <Typography variant="body2" color="text.secondary">
-                                            <FmdGoodIcon /> Apartment 1502, Marina Heights.....
+                                        <Typography gutterBottom variant="h5" mt={-4} fontWeight="bold" component="div">
+                                            Renovated Luxury Apartment
                                         </Typography>
 
-                                        <div className='d-flex justify-content-between p-3 rounded my-3' style={{ backgroundColor: 'var(--brink-pink-50, #FEF2F3)', color: 'var(--brink-pink-600, #D72752)' }}>
+                                        <div className='d-flex justify-content-between p-3 rounded mb-3' style={{ backgroundColor: 'var(--brink-pink-50, #FEF2F3)', color: 'var(--brink-pink-600, #D72752)' }}>
                                             <div className='d-flex'>
                                                 <Typography fontSize={'20px'} color={'#000'} fontWeight={'600'} ml={1}>70/30</Typography>
                                             </div>
@@ -117,8 +135,88 @@ export default function CardTopTrending() {
                                             <Typography fontSize={'20px'} fontWeight={'600'} color={'var(--brink-pink-600, #D72752)'}>Easy Payment Plan</Typography>
                                         </div>
 
-                                        <div class="bottom-card text-center mt-3 pt-3">
-                                            <Button href={'PropertySingleView'} style={{ color: '#000', textTransform: 'capitalize' }} variant="text">More details <ChevronRightIcon /></Button>
+                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                            <FmdGoodIcon /> Apartment 1502, Marina Heights.....
+                                        </Typography>
+
+                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                            <ApartmentIcon /> Apartment 1502, Marina Heights.....
+                                        </Typography>
+
+                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                            <SettingsIcon /> Apartment 1502, Marina Heights.....
+                                        </Typography>
+
+                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                            <LocalHotelIcon /> Apartment 1502, Marina Heights.....
+                                        </Typography>
+
+                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                            <DateRangeIcon /> Apartment 1502, Marina Heights.....
+                                        </Typography>
+
+                                        <div class="text-center pt-3">
+                                            <Button className='py-3 fullWidthPinkButton w-100' style={{ color: '#fff', fontSize: '20px' }} variant="text">VIEW DETAILS <ChevronRightIcon /></Button>
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div>
+                                <Card>
+                                    <div class="px-3 pt-3">
+                                        <Image
+                                            src={'/t1.png'}
+                                            width={400}
+                                            height={(400 / 4) * 3}
+                                            layout="responsive"
+                                        />
+                                    </div>
+
+
+                                    <CardContent>
+                                        <Button className='Price-Card-btn px-3'>AED15,000/mo</Button>
+                                        <Image
+                                            src={'/Frame 379.png'}
+                                            width={81}
+                                            height={81}
+                                            style={{ float: 'right', marginTop: '-55px', position: 'relative', zIndex: '99' }}
+                                        />
+                                        <Typography gutterBottom variant="h5" mt={-4} fontWeight="bold" component="div">
+                                            Renovated Luxury Apartment
+                                        </Typography>
+
+                                        <div className='d-flex justify-content-between p-3 rounded mb-3' style={{ backgroundColor: 'var(--brink-pink-50, #FEF2F3)', color: 'var(--brink-pink-600, #D72752)' }}>
+                                            <div className='d-flex'>
+                                                <Typography fontSize={'20px'} color={'#000'} fontWeight={'600'} ml={1}>70/30</Typography>
+                                            </div>
+
+                                            <Typography fontSize={'20px'} fontWeight={'600'} color={'var(--brink-pink-600, #D72752)'}>Easy Payment Plan</Typography>
+                                        </div>
+
+                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                            <FmdGoodIcon /> Apartment 1502, Marina Heights.....
+                                        </Typography>
+
+                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                            <ApartmentIcon /> Apartment 1502, Marina Heights.....
+                                        </Typography>
+
+                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                            <SettingsIcon /> Apartment 1502, Marina Heights.....
+                                        </Typography>
+
+                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                            <LocalHotelIcon /> Apartment 1502, Marina Heights.....
+                                        </Typography>
+
+                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                            <DateRangeIcon /> Apartment 1502, Marina Heights.....
+                                        </Typography>
+
+                                        <div class="text-center pt-3">
+                                            <Button className='py-3 fullWidthPinkButton w-100' style={{ color: '#fff', fontSize: '20px' }} variant="text">VIEW DETAILS <ChevronRightIcon /></Button>
                                         </div>
                                     </CardContent>
                                 </Card>
@@ -138,64 +236,18 @@ export default function CardTopTrending() {
 
 
                                     <CardContent>
-                                        <Button className='Price-Card px-3'>AED15,000/mo</Button>
+                                        <Button className='Price-Card-btn px-3'>AED15,000/mo</Button>
                                         <Image
                                             src={'/Frame 379.png'}
                                             width={81}
                                             height={81}
-                                            style={{ float: 'right', marginTop: '-55px', position: 'relative', zIndex: '999' }}
+                                            style={{ float: 'right', marginTop: '-55px', position: 'relative', zIndex: '99' }}
                                         />
-                                        <Typography gutterBottom variant="h5" mt={1} fontWeight="bold" component="div">
-                                        Harbour Lights
-                                        </Typography>
-                                        <Typography variant="body2" color="text.secondary">
-                                            <FmdGoodIcon /> Apartment 1502, Marina Heights.....
-                                        </Typography>
-
-                                        <div className='d-flex justify-content-between p-3 rounded my-3' style={{ backgroundColor: 'var(--brink-pink-50, #FEF2F3)', color: 'var(--brink-pink-600, #D72752)' }}>
-                                            <div className='d-flex'>
-                                                <Typography fontSize={'20px'} color={'#000'} fontWeight={'600'} ml={1}>70/30</Typography>
-                                            </div>
-
-                                            <Typography fontSize={'20px'} fontWeight={'600'} color={'var(--brink-pink-600, #D72752)'}>Easy Payment Plan</Typography>
-                                        </div>
-
-                                        <div class="bottom-card text-center mt-3 pt-3">
-                                            <Button href={'PropertySingleView'} style={{ color: '#000', textTransform: 'capitalize' }} variant="text">More details <ChevronRightIcon /></Button>
-                                        </div>
-                                    </CardContent>
-                                </Card>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div>
-                                <Card>
-                                    <div class="px-3 pt-3">
-                                        <Image
-                                            src={'/dddddddddddd.png'}
-                                            width={400}
-                                            height={(400 / 4) * 3}
-                                            layout="responsive"
-                                        />
-                                    </div>
-
-
-                                    <CardContent>
-                                        <Button className='Price-Card px-3'>AED15,000/mo</Button>
-                                        <Image
-                                            src={'/Frame 379.png'}
-                                            width={81}
-                                            height={81}
-                                            style={{ float: 'right', marginTop: '-55px', position: 'relative', zIndex: '999' }}
-                                        />
-                                        <Typography gutterBottom variant="h5" mt={1} fontWeight="bold" component="div">
+                                        <Typography gutterBottom variant="h5" mt={-4} fontWeight="bold" component="div">
                                             Renovated Luxury Apartment
                                         </Typography>
-                                        <Typography variant="body2" color="text.secondary">
-                                            <FmdGoodIcon /> Apartment 1502, Marina Heights.....
-                                        </Typography>
 
-                                        <div className='d-flex justify-content-between p-3 rounded my-3' style={{ backgroundColor: 'var(--brink-pink-50, #FEF2F3)', color: 'var(--brink-pink-600, #D72752)' }}>
+                                        <div className='d-flex justify-content-between p-3 rounded mb-3' style={{ backgroundColor: 'var(--brink-pink-50, #FEF2F3)', color: 'var(--brink-pink-600, #D72752)' }}>
                                             <div className='d-flex'>
                                                 <Typography fontSize={'20px'} color={'#000'} fontWeight={'600'} ml={1}>70/30</Typography>
                                             </div>
@@ -203,8 +255,28 @@ export default function CardTopTrending() {
                                             <Typography fontSize={'20px'} fontWeight={'600'} color={'var(--brink-pink-600, #D72752)'}>Easy Payment Plan</Typography>
                                         </div>
 
-                                        <div class="bottom-card text-center mt-3 pt-3">
-                                            <Button href={'PropertySingleView'} style={{ color: '#000', textTransform: 'capitalize' }} variant="text">More details <ChevronRightIcon /></Button>
+                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                            <FmdGoodIcon /> Apartment 1502, Marina Heights.....
+                                        </Typography>
+
+                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                            <ApartmentIcon /> Apartment 1502, Marina Heights.....
+                                        </Typography>
+
+                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                            <SettingsIcon /> Apartment 1502, Marina Heights.....
+                                        </Typography>
+
+                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                            <LocalHotelIcon /> Apartment 1502, Marina Heights.....
+                                        </Typography>
+
+                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                            <DateRangeIcon /> Apartment 1502, Marina Heights.....
+                                        </Typography>
+
+                                        <div class="text-center pt-3">
+                                            <Button className='py-3 fullWidthPinkButton w-100' style={{ color: '#fff', fontSize: '20px' }} variant="text">VIEW DETAILS <ChevronRightIcon /></Button>
                                         </div>
                                     </CardContent>
                                 </Card>

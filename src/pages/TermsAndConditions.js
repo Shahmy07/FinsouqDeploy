@@ -7,8 +7,8 @@ export default function TermsAndConditions() {
 
             <div class="container-fluid py-5" style={{ backgroundColor: '#ffff' }}>
 
-                <div className='LayoutCardOuterMain'>
-                    <div>
+                <div className='LayoutCardOuterMain d-flex justify-content-center'>
+                    <div style={{ backgroundColor: 'var(--black-50, #F6F6F6)' }} className='py-5 px-md-5 px-3 w-75'>
                         <Typography variant="h4" fontWeight={600} mb={4}>
                             Terms and conditions
                         </Typography>
