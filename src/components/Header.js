@@ -8,7 +8,7 @@ import Login from './Login'
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import FmdGoodIcon from '@mui/icons-material/FmdGood';
 import MobileMenu from './MobileMenu'
-
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 
 
@@ -43,11 +43,10 @@ function Header() {
           <div class="w-75 d-lg-flex d-none justify-content-between links-nav">
             <Link style={{ fontWeight: '500' }} href='/'>Home</Link>
             <Link style={{ fontWeight: '500' }} href='/Trending'>Trending Developments</Link>
-            <Link style={{ fontWeight: '500' }} href='/blog'>Blog</Link>
-            <Link style={{ fontWeight: '500' }} href='/Trending'> Company</Link>
+            <Link style={{ fontWeight: '500' }} href='/blog'>Blog</Link> 
             
             <div class="dropdown">
-              <button class="dropbtn">Dropdown</button>
+              <button class="dropbtn">Company <ExpandMoreIcon /></button>
               <div class="dropdown-content">
                <Link style={{ fontWeight: '500' }} href='/HowFinsouqWorks'> How Finsouq Works</Link>
                <Link style={{ fontWeight: '500' }} href='/Services'> Services</Link>

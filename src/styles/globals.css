@@ -32,9 +32,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, span, *, a {
     border-radius: 10px !important;
     margin-top: -120px !important;
     margin-left: 10px !important;
-}
-.bottom-card { 
-}
+} 
 .bottom-card button{
     color: var(--black-500, #6D6D6D) !important;
     text-transform: capitalize !important;
