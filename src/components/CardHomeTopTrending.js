@@ -6,13 +6,8 @@ import Typography from '@mui/material/Typography'
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
-import Link from 'next/link'
-import FmdGoodIcon from '@mui/icons-material/FmdGood';
-import ChevronRightIcon from '@mui/icons-material/ChevronRight';
-import ApartmentIcon from '@mui/icons-material/Apartment';
-import SettingsIcon from '@mui/icons-material/Settings';
-import LocalHotelIcon from '@mui/icons-material/LocalHotel';
-import DateRangeIcon from '@mui/icons-material/DateRange';
+import Link from 'next/link' 
+import ChevronRightIcon from '@mui/icons-material/ChevronRight'; 
 
 export default function CardTopTrending() {
     return (

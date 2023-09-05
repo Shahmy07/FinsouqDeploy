@@ -41,10 +41,10 @@ function Header() {
         </div>
 
         <div class="w-75 d-lg-flex d-none justify-content-between links-nav">
-          <Link style={{fontWeight:'600'}} href='/'>Home</Link>
-          <Link style={{fontWeight:'600'}} href='/Trending'>Trending Developments</Link> 
-          <Link style={{fontWeight:'600'}} href='/blog'>Blog</Link>
-          <Link style={{fontWeight:'600'}} href='/Trending'> Company</Link> 
+          <Link style={{fontWeight:'500'}} href='/'>Home</Link>
+          <Link style={{fontWeight:'500'}} href='/Trending'>Trending Developments</Link> 
+          <Link style={{fontWeight:'500'}} href='/blog'>Blog</Link>
+          <Link style={{fontWeight:'500'}} href='/Trending'> Company</Link> 
           <Login/>
 
           <Button style={naviBtn} variant="contained"><WhatsAppIcon/> &zwnj;  MAKE A CALL</Button>

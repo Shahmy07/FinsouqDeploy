@@ -26,7 +26,7 @@ export default function Login() {
 
     return (
         <div>
-            <Button style={{ fontWeight: '600', color: '#000', fontSize: '16px', textTransform: 'none', padding: '0', textDecoration: 'none' }} onClick={handleOpen}>Log In</Button>
+            <Button style={{ fontWeight: '600', color: '#000', fontSize: '16px', textTransform: 'none', padding: '0', textDecoration: 'underline' }} onClick={handleOpen}>Log In</Button>
             <Modal
                 open={open}
                 onClose={handleClose}
