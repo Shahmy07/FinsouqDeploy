@@ -3,6 +3,9 @@ import Image from 'next/image'
 import logo from '../assets/logo.png'
 import { Typography, Button } from '@mui/material'
 import Link from 'next/link'
+import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 export default function footer() {
 
@@ -25,12 +28,20 @@ export default function footer() {
                             />
 
                             <Typography mt={4} style={telNum} gutterBottom>
-                                +971 50 123 4567
+                            04 295 7589
                             </Typography>
 
                             <Typography style={{ color: '#6D6D6D', fontSize: '20px', fontWeight:'500' }}>
-                                Finsouq Headquarters  <br/>Sheikh Zayed Road, Dubai, <br/>United Arab Emirates
+                            Bluebay Financial Services  <br/>LLC, Oud Metha offices, <br/>Oud Metha, Dubai
                             </Typography>
+
+                            <div className='mt-4'>
+                            <Link style={{ fontWeight: '600', color:'#6D6D6D', marginRight:'15px' }} href='/blog'><FacebookIcon/></Link>
+
+                            <Link style={{ fontWeight: '600', color:'#6D6D6D', marginRight:'15px' }} href='/blog'><LinkedInIcon/></Link>
+
+                            <Link style={{ fontWeight: '600', color:'#6D6D6D' }} href='/blog'><InstagramIcon/></Link>
+                            </div>
                         </div>
                         <div class="col-md-8 mt-md-0 mt-4">
                             <div class="d-lg-flex d-block justify-content-xl-between links-nav" style={{flexWrap:'wrap'}}>
@@ -41,11 +52,7 @@ export default function footer() {
                                 
                                 <div className='mx-xl-2 mx-lg-3'>
                                 <Link style={{ fontWeight: '600' }} href='/blog'>Blog</Link>
-                                </div>
-                                
-                                <div className='mx-xl-2 mx-lg-3'>
-                                <Link style={{ fontWeight: '600' }} href='/AboutUs'>About us</Link>
-                                </div>
+                                </div> 
                                 
                                 <div className='mx-xl-2 mx-lg-3'>
                                 <Link style={{ fontWeight: '600' }} href='/Trending'>Trending Developments</Link>

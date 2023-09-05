@@ -49,7 +49,7 @@ export default function WelcomeToFinsouqee() {
 
                                 <SwiperSlide>
                                     <div>
-                                        <div className='p-3 rounded mx-2 d-flex' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)' }}>
+                                        <div className='p-3 rounded mx-2 d-flex align-items-center' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)', height:'100px' }}>
                                             <Image
                                                 src={'/image 18.png'}
                                                 width={30}
@@ -61,7 +61,7 @@ export default function WelcomeToFinsouqee() {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div>
-                                        <div className='p-3 rounded mx-2 d-flex' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)' }}>
+                                        <div className='p-3 rounded mx-2 d-flex align-items-center' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)', height:'100px' }}>
                                             <Image
                                                 src={'/image 19.png'}
                                                 width={30}
@@ -73,7 +73,7 @@ export default function WelcomeToFinsouqee() {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div>
-                                        <div className='p-3 rounded mx-2 d-flex' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)' }}>
+                                        <div className='p-3 rounded mx-2 d-flex align-items-center' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)', height:'100px' }}>
                                             <Image
                                                 src={'/image 20.png'}
                                                 width={30}
@@ -85,7 +85,7 @@ export default function WelcomeToFinsouqee() {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div>
-                                        <div className='p-3 rounded mx-2 d-flex' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)' }}>
+                                        <div className='p-3 rounded mx-2 d-flex align-items-center' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)', height:'100px' }}>
                                             <Image
                                                 src={'/image 18.png'}
                                                 width={30}

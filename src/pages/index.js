@@ -28,9 +28,7 @@ export default function Home() {
 
       <OurProperty />
 
-      <CardBlogsOfFinsouqq />
-
-      <CardHomeLastt />
+      <CardBlogsOfFinsouqq /> 
 
     </>
   )

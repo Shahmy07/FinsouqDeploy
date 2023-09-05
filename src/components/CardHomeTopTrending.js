@@ -64,7 +64,7 @@ export default function CardTopTrending() {
                                             style={{ float: 'right', marginTop: '-55px', position: 'relative', zIndex: '99' }}
                                         />
                                         <Typography gutterBottom variant="h5" mt={-4} fontWeight="bold" component="div">
-                                            Renovated Luxury Apartment
+                                            Radisson Hotel Dubai DAMAC Hills
                                         </Typography>
 
                                         <div className='d-flex justify-content-between p-3 rounded mb-3' style={{ backgroundColor: 'var(--brink-pink-50, #FEF2F3)', color: 'var(--brink-pink-600, #D72752)' }}>
@@ -75,28 +75,64 @@ export default function CardTopTrending() {
                                             <Typography fontSize={'20px'} fontWeight={'600'} color={'var(--brink-pink-600, #D72752)'}>Easy Payment Plan</Typography>
                                         </div>
 
-                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
-                                            <FmdGoodIcon /> Apartment 1502, Marina Heights.....
-                                        </Typography>
+                                        <div className='d-flex align-items-center'>
+                                            <Image
+                                                src={'/image 8.png'}
+                                                width={24}
+                                                height={24}
+                                            />
+                                            <Typography variant="body2" ml={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                                Apartment
+                                            </Typography>
+                                        </div>
 
-                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
-                                            <ApartmentIcon /> Apartment 1502, Marina Heights.....
-                                        </Typography>
 
-                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
-                                            <SettingsIcon /> Apartment 1502, Marina Heights.....
-                                        </Typography>
+                                        <div className='d-flex align-items-center mt-2'>
+                                            <Image
+                                                src={'/image 9.png'}
+                                                width={24}
+                                                height={24}
+                                            />
+                                            <Typography variant="body2" ml={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                                Apartment 1502, Marina Heights
+                                            </Typography>
+                                        </div>
 
-                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
-                                            <LocalHotelIcon /> Apartment 1502, Marina Heights.....
-                                        </Typography>
+                                        <div className='d-flex align-items-center mt-2'>
+                                            <Image
+                                                src={'/image 10.png'}
+                                                width={24}
+                                                height={24}
+                                            />
+                                            <Typography variant="body2" ml={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                                Property Developer Name
+                                            </Typography>
+                                        </div>
 
-                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
-                                            <DateRangeIcon /> Apartment 1502, Marina Heights.....
-                                        </Typography>
+                                        <div className='d-flex align-items-center mt-2'>
+                                            <Image
+                                                src={'/image 11.png'}
+                                                width={24}
+                                                height={24}
+                                            />
+                                            <Typography variant="body2" ml={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                                6 & 7 Bedrooms
+                                            </Typography>
+                                        </div>
+
+                                        <div className='d-flex align-items-center mt-2'>
+                                            <Image
+                                                src={'/image 28.png'}
+                                                width={24}
+                                                height={24}
+                                            />
+                                            <Typography variant="body2" ml={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                                December - 2025
+                                            </Typography>
+                                        </div>
 
                                         <div class="text-center pt-3">
-                                            <Button className='py-3 fullWidthPinkButton w-100' style={{ color: '#fff', fontSize: '20px' }} variant="text">VIEW DETAILS <ChevronRightIcon /></Button>
+                                            <Button href='/PropertySingleView' className='py-3 fullWidthPinkButton w-100' style={{ color: '#fff', fontSize: '20px' }} variant="text">VIEW DETAILS <ChevronRightIcon /></Button>
                                         </div>
                                     </CardContent>
                                 </Card>
@@ -124,7 +160,7 @@ export default function CardTopTrending() {
                                             style={{ float: 'right', marginTop: '-55px', position: 'relative', zIndex: '99' }}
                                         />
                                         <Typography gutterBottom variant="h5" mt={-4} fontWeight="bold" component="div">
-                                            Renovated Luxury Apartment
+                                            Morocco by Damac Lagoons
                                         </Typography>
 
                                         <div className='d-flex justify-content-between p-3 rounded mb-3' style={{ backgroundColor: 'var(--brink-pink-50, #FEF2F3)', color: 'var(--brink-pink-600, #D72752)' }}>
@@ -135,28 +171,64 @@ export default function CardTopTrending() {
                                             <Typography fontSize={'20px'} fontWeight={'600'} color={'var(--brink-pink-600, #D72752)'}>Easy Payment Plan</Typography>
                                         </div>
 
-                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
-                                            <FmdGoodIcon /> Apartment 1502, Marina Heights.....
-                                        </Typography>
+                                        <div className='d-flex align-items-center'>
+                                            <Image
+                                                src={'/image 8.png'}
+                                                width={24}
+                                                height={24}
+                                            />
+                                            <Typography variant="body2" ml={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                                Apartment
+                                            </Typography>
+                                        </div>
 
-                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
-                                            <ApartmentIcon /> Apartment 1502, Marina Heights.....
-                                        </Typography>
 
-                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
-                                            <SettingsIcon /> Apartment 1502, Marina Heights.....
-                                        </Typography>
+                                        <div className='d-flex align-items-center mt-2'>
+                                            <Image
+                                                src={'/image 9.png'}
+                                                width={24}
+                                                height={24}
+                                            />
+                                            <Typography variant="body2" ml={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                                Apartment 1502, Marina Heights
+                                            </Typography>
+                                        </div>
 
-                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
-                                            <LocalHotelIcon /> Apartment 1502, Marina Heights.....
-                                        </Typography>
+                                        <div className='d-flex align-items-center mt-2'>
+                                            <Image
+                                                src={'/image 10.png'}
+                                                width={24}
+                                                height={24}
+                                            />
+                                            <Typography variant="body2" ml={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                                Property Developer Name
+                                            </Typography>
+                                        </div>
 
-                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
-                                            <DateRangeIcon /> Apartment 1502, Marina Heights.....
-                                        </Typography>
+                                        <div className='d-flex align-items-center mt-2'>
+                                            <Image
+                                                src={'/image 11.png'}
+                                                width={24}
+                                                height={24}
+                                            />
+                                            <Typography variant="body2" ml={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                                6 & 7 Bedrooms
+                                            </Typography>
+                                        </div>
+
+                                        <div className='d-flex align-items-center mt-2'>
+                                            <Image
+                                                src={'/image 28.png'}
+                                                width={24}
+                                                height={24}
+                                            />
+                                            <Typography variant="body2" ml={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                                December - 2025
+                                            </Typography>
+                                        </div>
 
                                         <div class="text-center pt-3">
-                                            <Button className='py-3 fullWidthPinkButton w-100' style={{ color: '#fff', fontSize: '20px' }} variant="text">VIEW DETAILS <ChevronRightIcon /></Button>
+                                            <Button href='/PropertySingleView' className='py-3 fullWidthPinkButton w-100' style={{ color: '#fff', fontSize: '20px' }} variant="text">VIEW DETAILS <ChevronRightIcon /></Button>
                                         </div>
                                     </CardContent>
                                 </Card>
@@ -184,7 +256,7 @@ export default function CardTopTrending() {
                                             style={{ float: 'right', marginTop: '-55px', position: 'relative', zIndex: '99' }}
                                         />
                                         <Typography gutterBottom variant="h5" mt={-4} fontWeight="bold" component="div">
-                                            Renovated Luxury Apartment
+                                            Harbour lights by damac
                                         </Typography>
 
                                         <div className='d-flex justify-content-between p-3 rounded mb-3' style={{ backgroundColor: 'var(--brink-pink-50, #FEF2F3)', color: 'var(--brink-pink-600, #D72752)' }}>
@@ -195,28 +267,64 @@ export default function CardTopTrending() {
                                             <Typography fontSize={'20px'} fontWeight={'600'} color={'var(--brink-pink-600, #D72752)'}>Easy Payment Plan</Typography>
                                         </div>
 
-                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
-                                            <FmdGoodIcon /> Apartment 1502, Marina Heights.....
-                                        </Typography>
+                                        <div className='d-flex align-items-center'>
+                                            <Image
+                                                src={'/image 8.png'}
+                                                width={24}
+                                                height={24}
+                                            />
+                                            <Typography variant="body2" ml={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                                Apartment
+                                            </Typography>
+                                        </div>
 
-                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
-                                            <ApartmentIcon /> Apartment 1502, Marina Heights.....
-                                        </Typography>
 
-                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
-                                            <SettingsIcon /> Apartment 1502, Marina Heights.....
-                                        </Typography>
+                                        <div className='d-flex align-items-center mt-2'>
+                                            <Image
+                                                src={'/image 9.png'}
+                                                width={24}
+                                                height={24}
+                                            />
+                                            <Typography variant="body2" ml={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                                Apartment 1502, Marina Heights
+                                            </Typography>
+                                        </div>
 
-                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
-                                            <LocalHotelIcon /> Apartment 1502, Marina Heights.....
-                                        </Typography>
+                                        <div className='d-flex align-items-center mt-2'>
+                                            <Image
+                                                src={'/image 10.png'}
+                                                width={24}
+                                                height={24}
+                                            />
+                                            <Typography variant="body2" ml={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                                Property Developer Name
+                                            </Typography>
+                                        </div>
 
-                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
-                                            <DateRangeIcon /> Apartment 1502, Marina Heights.....
-                                        </Typography>
+                                        <div className='d-flex align-items-center mt-2'>
+                                            <Image
+                                                src={'/image 11.png'}
+                                                width={24}
+                                                height={24}
+                                            />
+                                            <Typography variant="body2" ml={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                                6 & 7 Bedrooms
+                                            </Typography>
+                                        </div>
+
+                                        <div className='d-flex align-items-center mt-2'>
+                                            <Image
+                                                src={'/image 28.png'}
+                                                width={24}
+                                                height={24}
+                                            />
+                                            <Typography variant="body2" ml={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                                December - 2025
+                                            </Typography>
+                                        </div>
 
                                         <div class="text-center pt-3">
-                                            <Button className='py-3 fullWidthPinkButton w-100' style={{ color: '#fff', fontSize: '20px' }} variant="text">VIEW DETAILS <ChevronRightIcon /></Button>
+                                            <Button href='/PropertySingleView' className='py-3 fullWidthPinkButton w-100' style={{ color: '#fff', fontSize: '20px' }} variant="text">VIEW DETAILS <ChevronRightIcon /></Button>
                                         </div>
                                     </CardContent>
                                 </Card>
@@ -244,7 +352,7 @@ export default function CardTopTrending() {
                                             style={{ float: 'right', marginTop: '-55px', position: 'relative', zIndex: '99' }}
                                         />
                                         <Typography gutterBottom variant="h5" mt={-4} fontWeight="bold" component="div">
-                                            Renovated Luxury Apartment
+                                            Radisson Hotel Dubai DAMAC Hills
                                         </Typography>
 
                                         <div className='d-flex justify-content-between p-3 rounded mb-3' style={{ backgroundColor: 'var(--brink-pink-50, #FEF2F3)', color: 'var(--brink-pink-600, #D72752)' }}>
@@ -255,28 +363,64 @@ export default function CardTopTrending() {
                                             <Typography fontSize={'20px'} fontWeight={'600'} color={'var(--brink-pink-600, #D72752)'}>Easy Payment Plan</Typography>
                                         </div>
 
-                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
-                                            <FmdGoodIcon /> Apartment 1502, Marina Heights.....
-                                        </Typography>
+                                        <div className='d-flex align-items-center'>
+                                            <Image
+                                                src={'/image 8.png'}
+                                                width={24}
+                                                height={24}
+                                            />
+                                            <Typography variant="body2" ml={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                                Apartment
+                                            </Typography>
+                                        </div>
 
-                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
-                                            <ApartmentIcon /> Apartment 1502, Marina Heights.....
-                                        </Typography>
 
-                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
-                                            <SettingsIcon /> Apartment 1502, Marina Heights.....
-                                        </Typography>
+                                        <div className='d-flex align-items-center mt-2'>
+                                            <Image
+                                                src={'/image 9.png'}
+                                                width={24}
+                                                height={24}
+                                            />
+                                            <Typography variant="body2" ml={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                                Apartment 1502, Marina Heights
+                                            </Typography>
+                                        </div>
 
-                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
-                                            <LocalHotelIcon /> Apartment 1502, Marina Heights.....
-                                        </Typography>
+                                        <div className='d-flex align-items-center mt-2'>
+                                            <Image
+                                                src={'/image 10.png'}
+                                                width={24}
+                                                height={24}
+                                            />
+                                            <Typography variant="body2" ml={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                                Property Developer Name
+                                            </Typography>
+                                        </div>
 
-                                        <Typography variant="body2" mt={1} color="text.secondary" fontWeight={500} fontSize={16}>
-                                            <DateRangeIcon /> Apartment 1502, Marina Heights.....
-                                        </Typography>
+                                        <div className='d-flex align-items-center mt-2'>
+                                            <Image
+                                                src={'/image 11.png'}
+                                                width={24}
+                                                height={24}
+                                            />
+                                            <Typography variant="body2" ml={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                                6 & 7 Bedrooms
+                                            </Typography>
+                                        </div>
+
+                                        <div className='d-flex align-items-center mt-2'>
+                                            <Image
+                                                src={'/image 28.png'}
+                                                width={24}
+                                                height={24}
+                                            />
+                                            <Typography variant="body2" ml={1} color="text.secondary" fontWeight={500} fontSize={16}>
+                                                December - 2025
+                                            </Typography>
+                                        </div>
 
                                         <div class="text-center pt-3">
-                                            <Button className='py-3 fullWidthPinkButton w-100' style={{ color: '#fff', fontSize: '20px' }} variant="text">VIEW DETAILS <ChevronRightIcon /></Button>
+                                            <Button href='/PropertySingleView' className='py-3 fullWidthPinkButton w-100' style={{ color: '#fff', fontSize: '20px' }} variant="text">VIEW DETAILS <ChevronRightIcon /></Button>
                                         </div>
                                     </CardContent>
                                 </Card>

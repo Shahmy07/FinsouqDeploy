@@ -15,7 +15,7 @@ export default function CardBlogsOfFinsouqq() {
     return (
         <>
 
-            <div class="container-fluid py-5" style={{ backgroundColor: 'var(--black-50, #F6F6F6)' }}>
+            <div class="container-fluid py-5">
 
                 <div className='LayoutCardOuter'>
                 <div>
