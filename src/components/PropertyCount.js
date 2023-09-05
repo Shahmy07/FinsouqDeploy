@@ -10,18 +10,19 @@ export default function PropertyCount() {
 
             <div class="container-fluid py-5">
 
-                <div className='LayoutCardOuterMain'> 
+                <div className='LayoutCardOuterMain'>
 
                     <div className='row'>
                         <div className='col-md-2 mt-md-0 mt-4'>
                             <div class="px-3 py-3" style={{ width: '100%' }}>
-                                <Image
-                                    src={'/Apartment.png'}
-                                    width={400}
-                                    height={(400 / 4) * 3}
-                                    layout="responsive"
-                                />
-
+                                <div className='px-md-0 px-5'>
+                                    <Image
+                                        src={'/Apartment.png'}
+                                        width={400}
+                                        height={(400 / 4) * 3}
+                                        layout="responsive"
+                                    />
+                                </div>
                                 <div className='text-center my-3'>
                                     <Typography variant="h4" fontSize={14} fontWeight={600} mb={1}>
                                         Apartment
@@ -35,56 +36,17 @@ export default function PropertyCount() {
                         </div>
                         <div className='col-md-2 mt-md-0 mt-4'>
                             <div class="px-3 py-3" style={{ width: '100%' }}>
-                                <Image
-                                    src={'/Villla.png'}
-                                    width={400}
-                                    height={(400 / 4) * 3}
-                                    layout="responsive"
-                                />
-
-                                <div className='text-center my-3'>
-                                    <Typography variant="h4" fontSize={14} fontWeight={600} mb={1}>
-                                    Villa
-                                    </Typography>
-
-                                    <Typography variant="h4" fontSize={14} fontWeight={600} color={'red'}>
-                                        565+
-                                    </Typography>
+                                <div className='px-md-0 px-5'>
+                                    <Image
+                                        src={'/Villla.png'}
+                                        width={400}
+                                        height={(400 / 4) * 3}
+                                        layout="responsive"
+                                    />
                                 </div>
-                            </div>
-                        </div>
-                        <div className='col-md-2 mt-md-0 mt-4'>
-                        <div class="px-3 py-3" style={{ width: '100%' }}>
-                                <Image
-                                    src={'/Townhouse.png'}
-                                    width={400}
-                                    height={(400 / 4) * 3}
-                                    layout="responsive"
-                                />
-
-                               <div className='text-center my-3'>
-                               <Typography variant="h4" fontSize={14} fontWeight={600} mb={1}>
-                               Townhouse
-                                </Typography>
-
-                                <Typography variant="h4" fontSize={14} fontWeight={600} color={'red'}>
-                                565+
-                                </Typography>
-                               </div>
-                            </div>
-                        </div>
-                        <div className='col-md-2 mt-md-0 mt-4'>
-                            <div class="px-3 py-3" style={{ width: '100%' }}>
-                                <Image
-                                    src={'/penthouse.png'}
-                                    width={400}
-                                    height={(400 / 4) * 3}
-                                    layout="responsive"
-                                />
-
                                 <div className='text-center my-3'>
                                     <Typography variant="h4" fontSize={14} fontWeight={600} mb={1}>
-                                    Penthouse
+                                        Villa
                                     </Typography>
 
                                     <Typography variant="h4" fontSize={14} fontWeight={600} color={'red'}>
@@ -95,16 +57,17 @@ export default function PropertyCount() {
                         </div>
                         <div className='col-md-2 mt-md-0 mt-4'>
                             <div class="px-3 py-3" style={{ width: '100%' }}>
-                                <Image
-                                    src={'/R-plot.png'}
-                                    width={400}
-                                    height={(400 / 4) * 3}
-                                    layout="responsive"
-                                />
-
+                                <div className='px-md-0 px-5'>
+                                    <Image
+                                        src={'/Townhouse.png'}
+                                        width={400}
+                                        height={(400 / 4) * 3}
+                                        layout="responsive"
+                                    />
+                                </div>
                                 <div className='text-center my-3'>
                                     <Typography variant="h4" fontSize={14} fontWeight={600} mb={1}>
-                                    Residential Plot
+                                        Townhouse
                                     </Typography>
 
                                     <Typography variant="h4" fontSize={14} fontWeight={600} color={'red'}>
@@ -115,16 +78,60 @@ export default function PropertyCount() {
                         </div>
                         <div className='col-md-2 mt-md-0 mt-4'>
                             <div class="px-3 py-3" style={{ width: '100%' }}>
-                                <Image
-                                    src={'/Duplex-Apartment.png'}
-                                    width={400}
-                                    height={(400 / 4) * 3}
-                                    layout="responsive"
-                                />
+                                <div className='px-md-0 px-5'>
+                                    <Image
+                                        src={'/penthouse.png'}
+                                        width={400}
+                                        height={(400 / 4) * 3}
+                                        layout="responsive"
+                                    />
+                                </div>
+                                <div className='text-center my-3'>
+                                    <Typography variant="h4" fontSize={14} fontWeight={600} mb={1}>
+                                        Penthouse
+                                    </Typography>
+
+                                    <Typography variant="h4" fontSize={14} fontWeight={600} color={'red'}>
+                                        565+
+                                    </Typography>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='col-md-2 mt-md-0 mt-4'>
+                            <div class="px-3 py-3" style={{ width: '100%' }}>
+                                <div className='px-md-0 px-5'>
+                                    <Image
+                                        src={'/R-plot.png'}
+                                        width={400}
+                                        height={(400 / 4) * 3}
+                                        layout="responsive"
+                                    />
+                                </div>
+                                <div className='text-center my-3'>
+                                    <Typography variant="h4" fontSize={14} fontWeight={600} mb={1}>
+                                        Residential Plot
+                                    </Typography>
+
+                                    <Typography variant="h4" fontSize={14} fontWeight={600} color={'red'}>
+                                        565+
+                                    </Typography>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='col-md-2 mt-md-0 mt-4'>
+                            <div class="px-3 py-3" style={{ width: '100%' }}>
+                                <div className='px-md-0 px-5'>
+                                    <Image
+                                        src={'/Duplex-Apartment.png'}
+                                        width={400}
+                                        height={(400 / 4) * 3}
+                                        layout="responsive"
+                                    />
+                                </div>
 
                                 <div className='text-center my-3'>
                                     <Typography variant="h4" fontSize={14} fontWeight={600} mb={1}>
-                                    Duplex Apartment
+                                        Duplex Apartment
                                     </Typography>
 
                                     <Typography variant="h4" fontSize={14} fontWeight={600} color={'red'}>
