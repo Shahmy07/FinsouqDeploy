@@ -196,9 +196,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, span, *, a {
   
   .dropdown-content a:hover {background-color: #ddd !important;}
   
-  .dropdown:hover .dropdown-content {display: block !important;}
-  
-  .dropdown:hover .dropbtn {background-color: #3e8e41 !important;}
+  .dropdown:hover .dropdown-content {display: block !important;} 
 
   .wFinsouq .swiper-slide{
     width: auto !important;
