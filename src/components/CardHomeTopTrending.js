@@ -51,7 +51,7 @@ export default function CardTopTrending() {
 
 
                                     <CardContent>
-                                        <Button className='Price-Card-btn px-3'>AED15,000/mo</Button>
+                                        <Button className='Price-Card-btn px-3'>AED15,000,000</Button>
                                         <Image
                                             src={'/Frame 379.png'}
                                             width={81}
@@ -147,7 +147,7 @@ export default function CardTopTrending() {
 
 
                                     <CardContent>
-                                        <Button className='Price-Card-btn px-3'>AED15,000/mo</Button>
+                                        <Button className='Price-Card-btn px-3'>AED15,000,000</Button>
                                         <Image
                                             src={'/Frame 379.png'}
                                             width={81}
@@ -243,7 +243,7 @@ export default function CardTopTrending() {
 
 
                                     <CardContent>
-                                        <Button className='Price-Card-btn px-3'>AED15,000/mo</Button>
+                                        <Button className='Price-Card-btn px-3'>AED15,000,000</Button>
                                         <Image
                                             src={'/Frame 379.png'}
                                             width={81}
@@ -339,7 +339,7 @@ export default function CardTopTrending() {
 
 
                                     <CardContent>
-                                        <Button className='Price-Card-btn px-3'>AED15,000/mo</Button>
+                                        <Button className='Price-Card-btn px-3'>AED15,000,000</Button>
                                         <Image
                                             src={'/Frame 379.png'}
                                             width={81}

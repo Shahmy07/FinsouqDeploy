@@ -44,7 +44,7 @@ export default function PropertyCount() {
 
                                 <div className='text-center my-3'>
                                     <Typography variant="h4" fontSize={14} fontWeight={600} mb={1}>
-                                        Apartment
+                                    Villa
                                     </Typography>
 
                                     <Typography variant="h4" fontSize={14} fontWeight={600} color={'red'}>
@@ -64,7 +64,7 @@ export default function PropertyCount() {
 
                                <div className='text-center my-3'>
                                <Typography variant="h4" fontSize={14} fontWeight={600} mb={1}>
-                                Apartment
+                               Townhouse
                                 </Typography>
 
                                 <Typography variant="h4" fontSize={14} fontWeight={600} color={'red'}>
@@ -84,7 +84,7 @@ export default function PropertyCount() {
 
                                 <div className='text-center my-3'>
                                     <Typography variant="h4" fontSize={14} fontWeight={600} mb={1}>
-                                        Apartment
+                                    Penthouse
                                     </Typography>
 
                                     <Typography variant="h4" fontSize={14} fontWeight={600} color={'red'}>
@@ -104,7 +104,7 @@ export default function PropertyCount() {
 
                                 <div className='text-center my-3'>
                                     <Typography variant="h4" fontSize={14} fontWeight={600} mb={1}>
-                                        Apartment
+                                    Residential Plot
                                     </Typography>
 
                                     <Typography variant="h4" fontSize={14} fontWeight={600} color={'red'}>
@@ -124,7 +124,7 @@ export default function PropertyCount() {
 
                                 <div className='text-center my-3'>
                                     <Typography variant="h4" fontSize={14} fontWeight={600} mb={1}>
-                                        Apartment
+                                    Duplex Apartment
                                     </Typography>
 
                                     <Typography variant="h4" fontSize={14} fontWeight={600} color={'red'}>
