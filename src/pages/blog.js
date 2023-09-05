@@ -49,10 +49,7 @@ export default function blogPage() {
                     </Stack>
                 </div>
 
-            </div>
-
-
-            <CardHomeLastt />
+            </div> 
 
         </>
     );

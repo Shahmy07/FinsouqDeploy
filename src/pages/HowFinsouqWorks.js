@@ -3,8 +3,7 @@ import Card from '@mui/material/Card'
 import CardContent from '@mui/material/CardContent'
 import Button from '@mui/material/Button'
 import Typography from '@mui/material/Typography'
-import Image from 'next/image'
-import CardHomeLastt from '@/components/CardHomeLast'
+import Image from 'next/image' 
 
 export default function HowFinsouqWorks() {
     return (
@@ -138,10 +137,7 @@ export default function HowFinsouqWorks() {
                     <Button className='fullWidthPinkButton mt-5' variant="contained" >Request inquiry</Button>
                 </div>
 
-            </div>
-
-
-            <CardHomeLastt/>
+            </div> 
 
         </>
     );

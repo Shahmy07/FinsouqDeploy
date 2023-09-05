@@ -1,7 +1,6 @@
 import React from 'react'
 import CardComponBlogg from '@/components/CardComponBlog'
-import { Typography } from '@mui/material'
-import CardHomeLastt from '@/components/CardHomeLast';
+import { Typography } from '@mui/material' 
 import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 import SingleCardTrendingDevelopment from '@/components/SingleCardTrendingDevelopment';
@@ -54,9 +53,7 @@ export default function PropertySearchResults() {
                 </div>
 
             </div>
-
-
-            <CardHomeLastt />
+ 
 
         </>
     );

@@ -19,7 +19,7 @@ export default function footer() {
         <>
             <div class="container-fluid">
                 <div className='LayoutCardOuterMain'>
-                    <div class="row py-3">
+                    <div class="row py-5">
                         <div class="col-md-4">
                             <Image
                                 src={logo} // Path to the image from the `public` folder
@@ -43,31 +43,31 @@ export default function footer() {
                             <Link style={{ fontWeight: '600', color:'#6D6D6D' }} href='/blog'><InstagramIcon/></Link>
                             </div>
                         </div>
-                        <div class="col-md-8 mt-md-0 mt-4">
+                        <div class="col-md-8 mt-5">
                             <div class="d-lg-flex d-block justify-content-xl-between links-nav" style={{flexWrap:'wrap'}}>
                                 
                                 <div>
-                                <Link style={{ fontWeight: '600' }} href='/HowFinsouqWorks'>How Finsouq Works?</Link>
+                                <Link style={{ fontWeight: '400' }} href='/HowFinsouqWorks'>How Finsouq Works?</Link>
                                 </div>
                                 
                                 <div className='mx-xl-2 mx-lg-3'>
-                                <Link style={{ fontWeight: '600' }} href='/blog'>Blog</Link>
+                                <Link style={{ fontWeight: '400' }} href='/blog'>Blog</Link>
                                 </div> 
                                 
                                 <div className='mx-xl-2 mx-lg-3'>
-                                <Link style={{ fontWeight: '600' }} href='/Trending'>Trending Developments</Link>
+                                <Link style={{ fontWeight: '400' }} href='/Trending'>Trending Developments</Link>
                                 </div>
                                
                                 <div className='mx-xl-2 mx-lg-3'>
-                                <Link style={{ fontWeight: '600' }} href='/faq'>FAQ s</Link>
+                                <Link style={{ fontWeight: '400' }} href='/faq'>FAQ s</Link>
                                 </div>
                                
                                 <div className='mx-xl-2 mx-lg-3'>
-                                <Link style={{ fontWeight: '600' }} href='/TermsAndConditions'>Terms & conditions</Link>
+                                <Link style={{ fontWeight: '400' }} href='/TermsAndConditions'>Terms & conditions</Link>
                                 </div>
                                
                                 <div>
-                                <Link style={{ fontWeight: '600' }} href='/PrivacyPolicy'>Privacy policy</Link>
+                                <Link style={{ fontWeight: '400' }} href='/PrivacyPolicy'>Privacy policy</Link>
                                 </div>
                             </div>
                         </div>

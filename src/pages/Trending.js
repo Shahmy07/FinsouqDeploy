@@ -597,10 +597,7 @@ export default function Trending() {
                     </Stack>
                 </div>
 
-            </div>
-
-
-            <CardHomeLastt />
+            </div> 
 
         </>
     );

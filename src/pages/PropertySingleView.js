@@ -2,8 +2,7 @@ import React from 'react';
 import Button from '@mui/material/Button'
 import Typography from '@mui/material/Typography'
 import Image from 'next/image'
-import { Link } from '@mui/material'
-import CardHomeLastt from '@/components/CardHomeLast'
+import { Link } from '@mui/material' 
 import SingleCardTrendingDevelopment from '@/components/SingleCardTrendingDevelopment'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
@@ -83,9 +82,7 @@ export default function PropertySingleView() {
                                 AED15,000/mo
                             </Typography>
 
-                            <Button className='fullWidthPinkButton my-4' variant="contained" fullWidth>Request inquiry</Button>
-
-                            <Link fontSize={16} fontWeight={600} color={'#000'} href='/Trending'>Try free calculators</Link>
+                            <Button className='fullWidthPinkButton my-4' variant="contained" fullWidth>Request inquiry</Button> 
                         </div>
                     </div>
                 </div>
@@ -342,10 +339,7 @@ export default function PropertySingleView() {
                     </Swiper>
                 </div>
 
-            </div>
-
-
-            <CardHomeLastt />
+            </div> 
 
         </>
     );
