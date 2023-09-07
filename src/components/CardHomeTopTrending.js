@@ -62,8 +62,8 @@ export default function CardTopTrending() {
                                             height={81}
                                             style={{ float: 'right', marginTop: '-55px', position: 'relative', zIndex: '99' }}
                                         />
-                                        <Typography gutterBottom variant="h5" mt={-4} fontWeight="bold" component="div">
-                                            Radisson Hotel Dubai DAMAC Hills
+                                        <Typography gutterBottom variant="h5" mt={-4} fontWeight="bold" className='TopTrendCardTitle' component="div">
+                                            Radisson Hotel Dubai DAMAC
                                         </Typography>
 
                                         <div className='d-flex justify-content-between p-3 rounded mb-3' style={{ backgroundColor: 'var(--brink-pink-50, #FEF2F3)', color: 'var(--brink-pink-600, #D72752)' }}>
@@ -158,7 +158,7 @@ export default function CardTopTrending() {
                                             height={81}
                                             style={{ float: 'right', marginTop: '-55px', position: 'relative', zIndex: '99' }}
                                         />
-                                        <Typography gutterBottom variant="h5" mt={-4} fontWeight="bold" component="div">
+                                        <Typography gutterBottom variant="h5" mt={-4} fontWeight="bold" className='TopTrendCardTitle' component="div">
                                             Morocco by Damac Lagoons
                                         </Typography>
 
@@ -254,7 +254,7 @@ export default function CardTopTrending() {
                                             height={81}
                                             style={{ float: 'right', marginTop: '-55px', position: 'relative', zIndex: '99' }}
                                         />
-                                        <Typography gutterBottom variant="h5" mt={-4} fontWeight="bold" component="div">
+                                        <Typography gutterBottom variant="h5" mt={-4} fontWeight="bold" className='TopTrendCardTitle' component="div">
                                             Harbour lights by damac
                                         </Typography>
 
@@ -350,8 +350,8 @@ export default function CardTopTrending() {
                                             height={81}
                                             style={{ float: 'right', marginTop: '-55px', position: 'relative', zIndex: '99' }}
                                         />
-                                        <Typography gutterBottom variant="h5" mt={-4} fontWeight="bold" component="div">
-                                            Radisson Hotel Dubai DAMAC Hills
+                                        <Typography gutterBottom variant="h5" mt={-4} fontWeight="bold" className='TopTrendCardTitle' component="div">
+                                            Radisson Hotel Dubai DAMAC
                                         </Typography>
 
                                         <div className='d-flex justify-content-between p-3 rounded mb-3' style={{ backgroundColor: 'var(--brink-pink-50, #FEF2F3)', color: 'var(--brink-pink-600, #D72752)' }}>

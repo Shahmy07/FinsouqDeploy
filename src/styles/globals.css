@@ -1,86 +1,106 @@
 @font-face {
-    font-family: 'Euclid Circular A';
-    src: url('../../public/Fonts/Euclid\ Circular\ A\ Regular.ttf');
+  font-family: 'Euclid Circular A';
+  src: url('../../public/Fonts/Euclid\ Circular\ A\ Regular.ttf');
 }
 
-html, body, h1, h2, h3, h4, h5, h6, p, span, *, a {
-    font-family: 'Euclid Circular A' !important;
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+*,
+a {
+  font-family: 'Euclid Circular A' !important;
 }
 
 /*Home Page*/
 
 /*Nav Bar*/
-.links-nav { 
-    align-items: center !important;
-}
-.links-nav a{
-    color: black;
-    text-decoration: none !important;
-}
-.Price-Card{
-    background-color: #D72752 !important;
-    color: white !important;
-    font-size: 20px !important;
-    font-weight: bold !important;
-    border-radius: 10px !important; 
-}
-.Price-Card-btn{
-    background-color: rgba(0, 0, 0, 0.60) !important;
-    color: white !important;
-    font-size: 20px !important;
-    font-weight: bold !important;
-    border-radius: 10px !important;
-    margin-top: -120px !important;
-    margin-left: 10px !important;
-} 
-.bottom-card button{
-    color: var(--black-500, #6D6D6D) !important;
-    text-transform: capitalize !important;
-    background-color: var(--white-100, #EFEFEF) !important;
-    width: 100% !important;
-    font-size: 20px !important;
-    
-}
-.seeMoreCards{
-    color: black !important;
-    text-transform: capitalize !important;
+.links-nav {
+  align-items: center !important;
 }
 
-.LayoutCardOuter{
-    padding-left: 100px !important;
+.links-nav a {
+  color: black;
+  text-decoration: none !important;
 }
+
+.Price-Card {
+  background-color: #D72752 !important;
+  color: white !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  border-radius: 10px !important;
+}
+
+.Price-Card-btn {
+  background-color: rgba(0, 0, 0, 0.60) !important;
+  color: white !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  border-radius: 10px !important;
+  margin-top: -120px !important;
+  margin-left: 10px !important;
+}
+
+.bottom-card button {
+  color: var(--black-500, #6D6D6D) !important;
+  text-transform: capitalize !important;
+  background-color: var(--white-100, #EFEFEF) !important;
+  width: 100% !important;
+  font-size: 20px !important;
+
+}
+
+.seeMoreCards {
+  color: black !important;
+  text-transform: capitalize !important;
+}
+
+.LayoutCardOuter {
+  padding-left: 100px !important;
+}
+
 @media (max-width: 992px) {
-    .LayoutCardOuter{
-        padding-left: 0 !important;
-    }
+  .LayoutCardOuter {
+    padding-left: 0 !important;
   }
-.LayoutCardOuterMain{
-    padding-left: 100px !important;
-    padding-right: 100px !important;
 }
+
+.LayoutCardOuterMain {
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+}
+
 @media (max-width: 992px) {
-    .LayoutCardOuterMain{
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-    }
+  .LayoutCardOuterMain {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
+}
 
 
 
-  .fullWidthPinkButton{
-    background-color: #D72752 !important;
-    padding-top: 20px !important;
-    padding-bottom: 20px !important;
-    border-radius: 15px !important;
-    text-transform: none !important;
-  }
-.buttonWhiteBgShadow button{
-    background-color: #fff !important;
-    color: black !important;
-    font-size: 12px !important;
-    font-weight: 600 !important;
-    border-radius: 10px !important;
-    margin-right: 10px !important;
+.fullWidthPinkButton {
+  background-color: #D72752 !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  border-radius: 15px !important;
+  text-transform: none !important;
+}
+
+.buttonWhiteBgShadow button {
+  background-color: #fff !important;
+  color: black !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  border-radius: 10px !important;
+  margin-right: 10px !important;
 }
 
 
@@ -88,116 +108,137 @@ html, body, h1, h2, h3, h4, h5, h6, p, span, *, a {
 
 
 
-.heroCardContain{
-    padding-left: 150px !important;
+.heroCardContain {
+  padding-left: 150px !important;
 }
-.heroCard1{
-    position: relative !important;
-    z-index: 999 !important;
-    width: 90% !important;
+
+.heroCard1 {
+  position: relative !important;
+  z-index: 999 !important;
+  width: 90% !important;
 }
-.heroCard2{
-    position: relative !important; 
-    width: 90% !important;
-    margin-top: -780px !important;
-    margin-left: 50px !important;
+
+.heroCard2 {
+  position: relative !important;
+  width: 90% !important;
+  margin-top: -780px !important;
+  margin-left: 50px !important;
 }
+
 @media (max-width: 1200px) {
-    .heroCardContain{
-        padding-left: 15px !important;
-    }
+  .heroCardContain {
+    padding-left: 15px !important;
   }
-  @media (max-width: 768px) { 
-    .heroCard1{
-        position: relative !important; 
-        width: 90% !important;
-    }
-    .heroCard2{
-        position: relative; 
-        width: 90% !important;
-        margin-top: -500px !important;
-        margin-left: 30px !important;
-    }
-  }
+}
 
-
-
-
-
-
-  .formModalPropSearch {
-    width: 60% !important;
-  }
-  @media (max-width: 968px) {
-    .formModalPropSearch {
-        width: 90% !important;
-      }
-  }
-
-
-  .GenForms {
-    width: 600px !important;
-  }
-  @media (max-width: 968px) {
-    .GenForms {
-        width: 90% !important;
-      }
-  }
-
-
-
-
-
-
-
-  .showMore button{
-    color: var(--black-500, #6D6D6D) !important; 
-    font-weight: 500 !important;
-    text-transform: capitalize !important;
- }
-
-
-
-
-
-
-
-
-
-
-
-
- 
-  .dropbtn{
-    background-color: transparent !important;
-    border: 0 !important;
-    padding: 0 !important;
-  }
-  .dropdown {
+@media (max-width: 768px) {
+  .heroCard1 {
     position: relative !important;
-    display: inline-block !important;
+    width: 90% !important;
   }
-  
-  .dropdown-content {
-    display: none !important;
-    position: absolute !important;
-    background-color: #ffffff !important;
-    min-width: 160px !important;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2) !important;
-    z-index: 9999 !important;
-  }
-  
-  .dropdown-content a {
-    color: black !important;
-    padding: 12px 16px !important;
-    text-decoration: none !important;
-    display: block !important;
-  }
-  
-  .dropdown-content a:hover {background-color: #ddd !important;}
-  
-  .dropdown:hover .dropdown-content {display: block !important;} 
 
-  .wFinsouq .swiper-slide{
-    width: auto !important;
+  .heroCard2 {
+    position: relative;
+    width: 90% !important;
+    margin-top: -500px !important;
+    margin-left: 30px !important;
   }
+}
+
+
+
+
+
+
+.formModalPropSearch {
+  width: 60% !important;
+}
+
+@media (max-width: 968px) {
+  .formModalPropSearch {
+    width: 90% !important;
+  }
+}
+
+
+.GenForms {
+  width: 600px !important;
+}
+
+@media (max-width: 968px) {
+  .GenForms {
+    width: 90% !important;
+  }
+}
+
+
+
+
+
+
+
+.showMore button {
+  color: var(--black-500, #6D6D6D) !important;
+  font-weight: 500 !important;
+  text-transform: capitalize !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dropbtn {
+  background-color: transparent !important;
+  border: 0 !important;
+  padding: 0 !important;
+}
+
+.dropdown {
+  position: relative !important;
+  display: inline-block !important;
+}
+
+.dropdown-content {
+  display: none !important;
+  position: absolute !important;
+  background-color: #ffffff !important;
+  min-width: 160px !important;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2) !important;
+  z-index: 9999 !important;
+}
+
+.dropdown-content a {
+  color: black !important;
+  padding: 12px 16px !important;
+  text-decoration: none !important;
+  display: block !important;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd !important;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block !important;
+}
+
+.wFinsouq .swiper-slide {
+  width: auto !important;
+}
+
+
+.TopTrendCardTitle {
+  white-space: nowrap;
+  /* Prevent text from wrapping to the next line */
+  overflow: hidden;
+  /* Hide any overflowing content */
+  text-overflow: ellipsis;
+}
