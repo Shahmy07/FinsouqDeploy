@@ -236,9 +236,7 @@ a {
 
 
 .TopTrendCardTitle {
-  white-space: nowrap;
-  /* Prevent text from wrapping to the next line */
-  overflow: hidden;
-  /* Hide any overflowing content */
-  text-overflow: ellipsis;
+  white-space: nowrap !important; 
+  overflow: hidden !important; 
+  text-overflow: ellipsis !important;
 }
