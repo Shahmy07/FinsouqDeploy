@@ -1,14 +1,13 @@
 import React from 'react'
-import Typography from '@mui/material/Typography'
-import { Button, Card, CardContent } from '@mui/material'
+import Typography from '@mui/material/Typography' 
 import FormRequestInquiry from './FormRequestInquiry';
 import SingleCardTrendingDevelopment from './SingleCardTrendingDevelopment';
-import Image from 'next/image';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import Image from 'next/image'; 
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 
-
+// import required modules
+import { Mousewheel } from 'swiper/modules';
 
 export default function WelcomeToFinsouqee() {
     return (
@@ -37,6 +36,8 @@ export default function WelcomeToFinsouqee() {
                                 slidesPerView={1}
                                 onSlideChange={() => console.log('slide change')}
                                 onSwiper={(swiper) => console.log(swiper)}
+                                mousewheel={true}  
+                                modules={[Mousewheel]}
                                 breakpoints={{
                                     // When screen width is less than 768px (typical mobile width)
                                     1050: {

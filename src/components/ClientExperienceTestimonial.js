@@ -1,10 +1,13 @@
 import React from 'react'
 import Card from '@mui/material/Card'
-import CardContent from '@mui/material/CardContent' 
+import CardContent from '@mui/material/CardContent'
 import Typography from '@mui/material/Typography'
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import 'swiper/css'
+import 'swiper/css' 
+
+// import required modules
+import { Mousewheel } from 'swiper/modules';
 
 export default function ClientExperienceTestimoniall() {
     return (
@@ -14,7 +17,7 @@ export default function ClientExperienceTestimoniall() {
 
                 <div className='LayoutCardOuterMain'>
                     <Typography variant="h4" fontWeight={600} mb={4}>
-                    Client Experiences and <br />Recommendations
+                        Client Experiences and <br />Recommendations
                     </Typography>
                 </div>
 
@@ -23,6 +26,8 @@ export default function ClientExperienceTestimoniall() {
                     slidesPerView={1}
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
+                    mousewheel={true}  
+                    modules={[Mousewheel]}
                     breakpoints={{
                         // When screen width is less than 768px (typical mobile width)
                         1050: {
@@ -125,7 +130,7 @@ export default function ClientExperienceTestimoniall() {
                             </Card>
                         </div>
                     </SwiperSlide>
-                     <div>&zwnj; </div>
+                    <div>&zwnj; </div>
                 </Swiper>
 
 
@@ -135,6 +140,8 @@ export default function ClientExperienceTestimoniall() {
                     initialSlide={2}
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
+                    mousewheel={true}  
+                    modules={[Mousewheel]}
                     breakpoints={{
                         // When screen width is less than 768px (typical mobile width)
                         1050: {

@@ -8,6 +8,8 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import Link from 'next/link' 
 import ChevronRightIcon from '@mui/icons-material/ChevronRight'; 
+// import required modules
+import { Mousewheel } from 'swiper/modules';
 
 export default function CardTopTrending() {
     return (
@@ -27,6 +29,8 @@ export default function CardTopTrending() {
                         slidesPerView={1}
                         onSlideChange={() => console.log('slide change')}
                         onSwiper={(swiper) => console.log(swiper)}
+                        mousewheel={true}  
+                        modules={[Mousewheel]}
                         breakpoints={{
                             // When screen width is less than 768px (typical mobile width)
                             1050: {

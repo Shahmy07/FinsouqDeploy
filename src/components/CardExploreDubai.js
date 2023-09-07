@@ -5,6 +5,8 @@ import Typography from '@mui/material/Typography'
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css' 
+// import required modules
+import { Mousewheel } from 'swiper/modules';
 
 export default function CardExploreDubaii() {
     return (
@@ -24,6 +26,8 @@ export default function CardExploreDubaii() {
                     slidesPerView={1}
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
+                    mousewheel={true}  
+                    modules={[Mousewheel]}
                     breakpoints={{
                         // When screen width is less than 768px (typical mobile width)
                         1050: {
