@@ -3,10 +3,8 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
-import { TextField } from '@mui/material';
-import Link from 'next/link';
-import GoogleIcon from '@mui/icons-material/Google';  
-import ResetPassword from './ResetPassword';
+import { TextField } from '@mui/material'; 
+import Login from './Login';
 
 const style = {
     position: 'absolute',
@@ -20,14 +18,14 @@ const style = {
     // p: 4,
 };
 
-export default function Login() {
+export default function ResetPassword() {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
 
     return (
         <div>
-            <Button style={{ fontWeight: '600', color: '#000', fontSize: '16px', textTransform: 'none', padding: '0', textDecoration: 'underline' }} onClick={handleOpen}>Log In</Button>
+            <Button style={{ fontWeight: '600', color: '#000', fontSize: '16px', textTransform: 'none', padding: '0', textDecoration: 'underline' }} onClick={handleOpen}>Reset password</Button>
             <Modal
                 open={open}
                 onClose={handleClose}
@@ -36,7 +34,7 @@ export default function Login() {
             >
                 <Box sx={style} className='GenForms'>
                     <div style={{ fontSize: '20px', fontWeight: 'bold', background: '#F6F6F6', borderRadius: '15px' }} className='p-4'>
-                    Log in
+                    Reset password
                     </div>
 
                     <div className='p-4'>
@@ -46,27 +44,19 @@ export default function Login() {
                             </Typography>
 
                             <TextField id="outlined-basic" sx={{ boxShadow: 3, borderRadius: 1, marginTop: 1 }} fullWidth label="Email" variant="outlined" />
-                        </div>
-
-                        <div className='mt-4'>
-                            <Typography fontWeight={'bold'}>
-                            Password
-                            </Typography>
-
-                            <TextField id="outlined-basic" sx={{ boxShadow: 3, borderRadius: 1, marginTop: 1 }} fullWidth label="Password" variant="outlined" />
-                        </div>
+                        </div> 
 
 
 
-                        <Button className='fullWidthPinkButton mt-4' variant="contained" fullWidth>Log in</Button>
+                        
 
 
-                        <div className='text-center my-4'>
-                            <Link style={{ fontWeight: '600', color: '#000000', fontSize: '16px', textDecoration:'none' }} href='/admindashboard'> <GoogleIcon/> Sign with Google (Test Admin Dashboard)</Link>
-                        </div>
 
-                        <div className='text-center'>
-                           <ResetPassword/>
+                        <Button className='fullWidthPinkButton mt-4' variant="contained" fullWidth>Send link</Button>
+ 
+
+                        <div className='text-center mt-3'>
+                           <Login/>
                         </div>
                     </div>
                 </Box>

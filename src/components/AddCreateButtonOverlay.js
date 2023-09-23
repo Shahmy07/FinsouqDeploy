@@ -52,7 +52,7 @@ export default function AddCreateButtonOverlay() {
                             <div className='mt-3 d-flex buttonWhiteBgShadow'>
                                 <Button variant="contained"> <MapsHomeWorkIcon/>  <Link href={'/AdminAddNewProperty'} style={{color:'#000', textDecoration:'none', marginLeft:'10px'}}>Property</Link></Button>
                                
-                                <AddNewVendorOverlay/> 
+                                <AddNewVendorOverlay/>  
                                 <Button variant="contained"> <ArticleIcon/> &zwnj; &zwnj; &zwnj;  Blog property</Button> 
                             </div>
                         </div> 
