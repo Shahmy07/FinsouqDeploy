@@ -1,8 +1,9 @@
 import React from 'react'
-import Typography from '@mui/material/Typography' 
+import Typography from '@mui/material/Typography'
 import FormRequestInquiry from './FormRequestInquiry';
 import SingleCardTrendingDevelopment from './SingleCardTrendingDevelopment';
-import Image from 'next/image'; 
+import Image from 'next/image';
+import Button from '@mui/material/Button';
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 
@@ -28,84 +29,14 @@ export default function WelcomeToFinsouqee() {
                                     <span style={{ fontSize: '55px' }}>Just 1%</span>   Down Payment <br /><span style={{ color: '#000' }}>in the UAE  </span>
                                 </Typography>
                             </div>
-
-
-
-                            <Swiper
-                                spaceBetween={0}
-                                slidesPerView={1}
-                                onSlideChange={() => console.log('slide change')}
-                                onSwiper={(swiper) => console.log(swiper)}
-                                mousewheel={true}  
-                                modules={[Mousewheel]}
-                                breakpoints={{
-                                    // When screen width is less than 768px (typical mobile width)
-                                    1050: {
-                                        slidesPerView: 2.8, // Show only one slide per frame
-                                    },
-                                }}
-                            >
-
-
-
-                                <SwiperSlide>
-                                    <div>
-                                        <div className='p-3 rounded mx-2 d-flex align-items-center' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)'}}>
-                                            <Image
-                                                src={'/image 18.png'}
-                                                width={30}
-                                                height={30}
-                                            />
-                                            <Typography ml={1} fontSize={'20px'} fontWeight={'600'}>24x7 security </Typography>
-                                        </div>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                    <div>
-                                        <div className='p-3 rounded mx-2 d-flex align-items-center' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)'}}>
-                                            <Image
-                                                src={'/image 19.png'}
-                                                width={30}
-                                                height={30}
-                                            />
-                                            <Typography ml={1} fontSize={'20px'} fontWeight={'600'}>Swimming </Typography>
-                                        </div>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                    <div>
-                                        <div className='p-3 rounded mx-2 d-flex align-items-center' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)'}}>
-                                            <Image
-                                                src={'/image 20.png'}
-                                                width={30}
-                                                height={30}
-                                            />
-                                            <Typography ml={1} fontSize={'20px'} fontWeight={'600'}>Multipurpose halls </Typography>
-                                        </div>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                    <div>
-                                        <div className='p-3 rounded mx-2 d-flex align-items-center' style={{ backgroundColor: 'var(--black-50, #F6F6F6)', border: '2px solid var(--black-200, #D1D1D1)'}}>
-                                            <Image
-                                                src={'/image 18.png'}
-                                                width={30}
-                                                height={30}
-                                            />
-                                            <Typography ml={1} fontSize={'20px'} fontWeight={'600'}>Bar</Typography>
-                                        </div>
-                                    </div>
-                                </SwiperSlide>
-                                <div>&zwnj; </div>
-                            </Swiper>
-
+ 
 
 
                             <FormRequestInquiry />
                         </div>
 
-                        <div className='col-lg-6 pt-3 heroCardContain' style={{ backgroundImage: 'url("/Ellipse 1.png")', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', backgroundPosition: 'center center' }}>
-                            <div className='heroCard1'>
+                        <div className='col-lg-6 pt-3 heroCardContain' style={{}}>
+                            {/* <div className='heroCard1'>
                                 <SingleCardTrendingDevelopment />
                             </div>
 
@@ -119,7 +50,109 @@ export default function WelcomeToFinsouqee() {
                                 height={150}
                                 style={{ position: 'absolute', top: '120%', left: '50%' }}
                                 className='d-xl-block d-none'
+                            /> */}
+
+                            <div className='d-flex justify-content-end'>
+                                <div>
+                                <div className='px-3 py-2' style={{background:'#fae5ea', borderRadius:'50px'}}>
+                                <Typography fontSize={'16px'} fontWeight={'500'}>Select Premium <b>Amenities</b> <br/>for Your Ideal Property </Typography>
+                                </div>
+
+                                <Image
+                                src={'/Arrow 03.png'}
+                                width={101}
+                                height={123}
+                                style={{ float:'right' }} 
                             />
+                                </div>
+                            </div>
+
+                            <div>
+                            <Button className='p-3 mx-2 hero-amenities-select mt-2'>
+                                <Image
+                                    src={'/image 18.png'}
+                                    width={30}
+                                    height={30}
+                                />
+                                <Typography ml={1} fontSize={'20px'} fontWeight={'600'}>24x7 security </Typography>
+                            </Button>
+
+                            <Button className='p-3 mx-2 hero-amenities-select mt-2'>
+                            <Image
+                                                src={'/image 19.png'}
+                                                width={30}
+                                                height={30}
+                                            />
+                                <Typography ml={1} fontSize={'20px'} fontWeight={'600'}>Swimming  </Typography>
+                            </Button>
+
+                            <Button className='p-3 mx-2 hero-amenities-select mt-2'>
+                            <Image
+                                                src={'/image 20.png'}
+                                                width={30}
+                                                height={30}
+                                            />
+                                <Typography ml={1} fontSize={'20px'} fontWeight={'600'}>Multipurpose halls  </Typography>
+                            </Button>
+
+                            <Button className='p-3 mx-2 hero-amenities-select mt-2'>
+                                <Image
+                                    src={'/massage 1.png'}
+                                    width={30}
+                                    height={30}
+                                />
+                                <Typography ml={1} fontSize={'20px'} fontWeight={'600'}>Sauna/ spa </Typography>
+                            </Button>
+
+                            <Button className='p-3 mx-2 hero-amenities-select mt-2'>
+                                <Image
+                                    src={'/image 21.png'}
+                                    width={30}
+                                    height={30}
+                                />
+                                <Typography ml={1} fontSize={'20px'} fontWeight={'600'}>Shops /eateries </Typography>
+                            </Button>
+
+                            <Button className='p-3 mx-2 hero-amenities-select mt-2'>
+                                <Image
+                                    src={'/image 22.png'}
+                                    width={30}
+                                    height={30}
+                                />
+                                <Typography ml={1} fontSize={'20px'} fontWeight={'600'}>Basketball  </Typography>
+                            </Button>
+
+                            <Button className='p-3 mx-2 hero-amenities-select mt-2'>
+                                <Image
+                                    src={'/image 23.png'}
+                                    width={30}
+                                    height={30}
+                                />
+                                <Typography ml={1} fontSize={'20px'} fontWeight={'600'}>Tennis  </Typography>
+                            </Button>
+
+                            <Button className='p-3 mx-2 hero-amenities-select mt-2'>
+                                <Image
+                                    src={'/image 24.png'}
+                                    width={30}
+                                    height={30}
+                                />
+                                <Typography ml={1} fontSize={'20px'} fontWeight={'600'}>Running /jogging trails  </Typography>
+                            </Button>
+
+                            <Button className='p-3 mx-2 hero-amenities-select mt-2'>
+                                <Image
+                                    src={'/image 25.png'}
+                                    width={30}
+                                    height={30}
+                                />
+                                <Typography ml={1} fontSize={'20px'} fontWeight={'600'}>Pool </Typography>
+                            </Button>
+
+                            <Button className='p-3 mx-2 hero-amenities-select mt-2'> 
+                                <Typography ml={1} fontSize={'20px'} fontWeight={'600'}>More 12+ </Typography>
+                            </Button>
+                            </div>
                         </div>
                     </div>
                 </div>

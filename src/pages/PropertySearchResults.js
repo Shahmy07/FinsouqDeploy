@@ -1,5 +1,4 @@
-import React from 'react'
-import CardComponBlogg from '@/components/CardComponBlog'
+import React from 'react' 
 import { Typography } from '@mui/material' 
 import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
@@ -10,7 +9,9 @@ export default function PropertySearchResults() {
     return (
         <>
 
-        <FormPropertySearch/>
+       <div className='text-center'>
+       <FormPropertySearch/>
+       </div>
 
             <div class="container-fluid py-5" style={{ backgroundColor: 'var(--black-50, #F6F6F6)' }}>
 

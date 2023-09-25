@@ -11,6 +11,7 @@ import BusinessOutlinedIcon from '@mui/icons-material/BusinessOutlined';
 import LocationCityOutlinedIcon from '@mui/icons-material/LocationCityOutlined';
 import VillaOutlinedIcon from '@mui/icons-material/VillaOutlined';
 import ReportGmailerrorredOutlinedIcon from '@mui/icons-material/ReportGmailerrorredOutlined';
+import TuneIcon from '@mui/icons-material/Tune';
 
 const style = {
     position: 'absolute',
@@ -34,19 +35,18 @@ export default function FormPropertySearch() {
 
     return (
         <div>
-            <div className='text-center'>
-                <Button className='px-3  my-4 py-3 shadow' style={{ fontWeight: '500', color: '#000', fontSize: '20px', textTransform: 'none', padding: '0', border: ' 2px solid var(--black-300, #B0B0B0)', borderRadius: '15px' }} onClick={handleOpen}>
-                    <div className='d-flex'>
-                        <SearchIcon />
+            <div className=''>
+                <Button className='px-3  my-4 py-3 shadow' style={{ fontWeight: '500', color: '#000', fontSize: '20px', textTransform: 'none', padding: '0', border: ' 2px solid var(--black-300, #B0B0B0)', borderRadius: '15px', backgroundColor: '#fff' }} onClick={handleOpen}>
+                    <div className='d-flex'> 
                         <div className='text-start'>
-                            <Typography ml={2} fontSize={16} color={'#000'} fontWeight={'600'}>Property search</Typography>
-                            <Typography ml={2} fontSize={14} color={'#6D6D6D'}>Including developer financing</Typography>
+                            <Typography  fontSize={16} color={'#000'} fontWeight={'600'}>Property search</Typography>
+                            <Typography  fontSize={14} color={'#6D6D6D'}>Including developer financing</Typography>
                         </div>
                     </div>
 
                     <Box color={'#000'} ml={5}>
                         <div>
-                            <OpenInNewIcon />
+                            <TuneIcon />
                         </div>
                     </Box>
 

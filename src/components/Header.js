@@ -43,6 +43,15 @@ function Header() {
           <div class="w-75 d-lg-flex d-none justify-content-between links-nav">
             <Link style={{ fontWeight: '500' }} href='/'>Home</Link>
             <Link style={{ fontWeight: '500' }} href='/Trending'>Trending Developments</Link>
+            
+            <div class="dropdown">
+              <button class="dropbtn">Developments <ExpandMoreIcon /></button>
+              <div class="dropdown-content">
+               <Link style={{ fontWeight: '500' }} href='/Trending'>Top Trending Developments</Link>
+               <Link style={{ fontWeight: '500' }} href='/LatestDevelopment'> Latest Developments</Link> 
+              </div>
+            </div>
+
             <Link style={{ fontWeight: '500' }} href='/blog'>Blog</Link> 
             
             <div class="dropdown">

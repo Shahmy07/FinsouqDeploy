@@ -109,7 +109,7 @@ a {
 
 
 .heroCardContain {
-  padding-left: 150px !important;
+   
 }
 
 .heroCard1 {
@@ -239,4 +239,22 @@ a {
   white-space: nowrap !important; 
   overflow: hidden !important; 
   text-overflow: ellipsis !important;
+}
+
+
+
+
+
+
+
+
+
+
+.hero-amenities-select {
+  background-color: var(--black-50, #F6F6F6);
+  border: 2px solid var(--black-200, #D1D1D1);
+  width: fit-content;
+  color: #000;
+  text-transform: none;
+  border-radius: 50px;
 }

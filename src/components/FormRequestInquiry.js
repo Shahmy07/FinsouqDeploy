@@ -28,7 +28,7 @@ export default function FormRequestInquiry() {
 
     return (
         <div>
-            <Button className='Price-Card px-3 w-100 mb-4 py-3' style={{ fontWeight: '500', color: '#fff', fontSize: '20px', textTransform: 'none', padding: '0' }} onClick={handleOpen}>Request Inquiry </Button>
+            <Button className='Price-Card px-5  mb-4 py-3' style={{ fontWeight: '500', color: '#fff', fontSize: '20px', textTransform: 'none', padding: '0' }} onClick={handleOpen}>Request Inquiry </Button>
             <Modal
                 open={open}
                 onClose={handleClose}
